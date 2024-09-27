@@ -3,18 +3,23 @@ project:
   output-dir: docs
 
 website:
-  title: "steven-mitchell.github.io"
+  title: "Steven Mitchell"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - href: resources.qmd
+        text: Resources
 
 format:
   html:
-    theme: lux
+    theme: 
+      light: quartz
+      dark: vapor
     css: styles.css
-    toc: true
+    toc: false
+    page-layout: full
 
 editor: visual
 
