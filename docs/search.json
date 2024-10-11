@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "boobs"
   },
   {
     "objectID": "index.html",
@@ -12,5 +12,26 @@
     "title": "Steven Mitchell",
     "section": "",
     "text": "Hi, I’m Steven! I graduated from Humboldt State University in 2015 with a Bachelor of Science in Wildlife specializing in Conservation Biology and Applied Vertebrate Ecology. During my undergrad, I worked for the Forest Service monitoring carnivore populations in the Sierra Nevada mountains and studying bat ecology on the Redwood Coast. After graduation, I went on to work as a wildlife biologist for eight years. I worked as an environmental consultant in the Pacific Northwest’s timber lands, where I surveyed for threatened and endangered species. I then joined the National Park Service, where I captured and removed invasive mountain goats from the Olympic Peninsula, monitored the spread of white-nose syndrome in bat colonies, and managed Northern Spotted Owl projects. In my time as a wildlife biologist, I became passionate about improving the laws and policies governing natural resources. At the Bren School, I’m specializing in Environmental Policy and Conservation Planning with a focus on Strategic Communication."
+  },
+  {
+    "objectID": "delete-later/practice.html",
+    "href": "delete-later/practice.html",
+    "title": "Here is my level one header",
+    "section": "",
+    "text": "Here is my level one header\nHere is my first paragraph\nHere is my second paragraph, where you can read more about MEDS.\nThis is very important text!"
+  },
+  {
+    "objectID": "about.html#what-i-do-for-work",
+    "href": "about.html#what-i-do-for-work",
+    "title": "About",
+    "section": "",
+    "text": "boobs"
+  },
+  {
+    "objectID": "about.html#what-i-do-for-fun",
+    "href": "about.html#what-i-do-for-fun",
+    "title": "About",
+    "section": "What I do for fun",
+    "text": "What I do for fun\n\nboobs\n\nhere is some more text\n\nbewbeez"
   }
 ]

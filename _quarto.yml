@@ -4,20 +4,26 @@ project:
 
 website:
   title: "Steven Mitchell"
+  favicon: images/weasel-logo.png
   navbar:
+    title: false
+    logo: images/weasel-logo.png
+    logo-alt: "Polyhedral Weasel"
     left:
       - href: index.qmd
         text: Home
       - about.qmd
       - href: resources.qmd
         text: Resources
-
+  page-footer:
+    background: light
+    left: Copyright 2024, Steven Mitchell
+    right: This wesite is built with 
 format:
   html:
-    theme: 
-      light: quartz
-      dark: vapor
-    css: styles.css
+    theme: styles.scss
+    mainfont: Merriweather
+    
     toc: false
     page-layout: full
 

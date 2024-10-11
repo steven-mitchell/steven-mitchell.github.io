@@ -1,0 +1,46 @@
+/*-- scss:defaults --*/
+
+// Color Palette
+$navy: #145a32;
+$blue: #4049a0;
+$orange: #D47D09;
+$golden: #FFC300;
+$cream: #fdebd0;
+$lightcream: #fef9e7;
+
+
+// Quarto Sass Variables
+$body-bg: $lightcream;
+$lin-color: $blue;
+$navbar-bg: $navy;
+$navbar-fg: $orange;
+$navbar-hl: $golden;
+$footer-bg: $cream;
+
+/*-- scss:rules --*/
+
+
+h1, h2 {
+  letter-spacing: 5px;
+  font-weight: 800;
+}
+
+title {
+  color: maroon;  
+}
+
+orange-text {
+  color: $orange;
+  text-align: center;
+}
+
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+.navbar-brand img {
+  max-height: 80px;
+  width: auto;
+}
