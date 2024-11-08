@@ -4,25 +4,27 @@ project:
 
 website:
   title: "Steven Mitchell"
-  favicon: images/weasel-logo.png
+  favicon: images/wiccan-logo.jpg
   navbar:
     title: false
-    logo: images/weasel-logo.png
-    logo-alt: "Polyhedral Weasel"
+    logo: images/wiccan-logo.jpg
+    logo-alt: "Wiccan circle with the eyes of a black cat gazing out."
     left:
       - href: index.qmd
         text: Home
       - about.qmd
       - href: resources.qmd
-        text: Resources
+        text: Work Samples
+      - href: photography.qmd
+        text: Wildlife Photography
   page-footer:
     background: light
     left: Copyright 2024, Steven Mitchell
-    right: This wesite is built with 
+    right: This website and everything contained here was coded by me in R and hosted via GitHub.
 format:
   html:
     theme: styles.scss
-    mainfont: Merriweather
+    mainfont: Montserrat
     
     toc: false
     page-layout: full

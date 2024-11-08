@@ -1,17 +1,17 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "boobs"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Steven Mitchell",
     "section": "",
-    "text": "Hi, I’m Steven! I graduated from Humboldt State University in 2015 with a Bachelor of Science in Wildlife specializing in Conservation Biology and Applied Vertebrate Ecology. During my undergrad, I worked for the Forest Service monitoring carnivore populations in the Sierra Nevada mountains and studying bat ecology on the Redwood Coast. After graduation, I went on to work as a wildlife biologist for eight years. I worked as an environmental consultant in the Pacific Northwest’s timber lands, where I surveyed for threatened and endangered species. I then joined the National Park Service, where I captured and removed invasive mountain goats from the Olympic Peninsula, monitored the spread of white-nose syndrome in bat colonies, and managed Northern Spotted Owl projects. In my time as a wildlife biologist, I became passionate about improving the laws and policies governing natural resources. At the Bren School, I’m specializing in Environmental Policy and Conservation Planning with a focus on Strategic Communication."
+    "text": "Welcome to my weird website! It’s currently in development. Have a look around and you might find wildlife photography, work samples, publications, or maybe even a resume, but no promises."
+  },
+  {
+    "objectID": "index.html#wildlife-biologist-bullet-data-scientist",
+    "href": "index.html#wildlife-biologist-bullet-data-scientist",
+    "title": "Steven Mitchell",
+    "section": "",
+    "text": "Welcome to my weird website! It’s currently in development. Have a look around and you might find wildlife photography, work samples, publications, or maybe even a resume, but no promises."
   },
   {
     "objectID": "delete-later/practice.html",
@@ -21,17 +21,45 @@
     "text": "Here is my level one header\nHere is my first paragraph\nHere is my second paragraph, where you can read more about MEDS.\nThis is very important text!"
   },
   {
-    "objectID": "about.html#what-i-do-for-work",
-    "href": "about.html#what-i-do-for-work",
-    "title": "About",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About ME",
     "section": "",
-    "text": "boobs"
+    "text": "I spent 8 years working as a wildlife biologist. I worked for the Forest Service - Region 5, Olympic and Mount Rainier National Parks, and Turnstone Environmental Consultants. I worked to monitor carnivore populations in the Sierra Nevadas, consult on ESA section 7 surveys for threatened and endangered bird species, mitigate human-wildlife conflict, and research zoonotic diseases."
+  },
+  {
+    "objectID": "about.html#then",
+    "href": "about.html#then",
+    "title": "About ME",
+    "section": "",
+    "text": "I spent 8 years working as a wildlife biologist. I worked for the Forest Service - Region 5, Olympic and Mount Rainier National Parks, and Turnstone Environmental Consultants. I worked to monitor carnivore populations in the Sierra Nevadas, consult on ESA section 7 surveys for threatened and endangered bird species, mitigate human-wildlife conflict, and research zoonotic diseases."
+  },
+  {
+    "objectID": "about.html#now",
+    "href": "about.html#now",
+    "title": "About ME",
+    "section": "Now",
+    "text": "Now\n\nIn June 2025, I’m wrapping up my Master’s of Environmental Science & Management at UCSB’s Bren School. I’ve focused on technical training in data science, statistics, conservation planning, and environmental policy."
+  },
+  {
+    "objectID": "about.html#soon",
+    "href": "about.html#soon",
+    "title": "About ME",
+    "section": "Soon",
+    "text": "Soon\n\nI aim to work in the non-profit or public sectors applying quantitative techniques to environmental problem solving."
   },
   {
     "objectID": "about.html#what-i-do-for-fun",
     "href": "about.html#what-i-do-for-fun",
-    "title": "About",
+    "title": "About ME",
     "section": "What I do for fun",
-    "text": "What I do for fun\n\nboobs\n\nhere is some more text\n\nbewbeez"
+    "text": "What I do for fun\n\nI backcountry ski, mountaineer, backpack, bike-pack, white-water paddle board, and generally get into stupid situations.\n\n\nFIGHT ME.\n\n\nI thought you wouldn’t find this sneaky text. Dang, this is embarassing…"
+  },
+  {
+    "objectID": "fontawesome-main/example.html",
+    "href": "fontawesome-main/example.html",
+    "title": "Font Awesome Quarto Extension",
+    "section": "",
+    "text": "This extension allows you to use font-awesome icons in your Quarto HTML and PDF documents. It provides an {{&lt; fa &gt;}} shortcode:\n\nMandatory &lt;icon-name&gt;:\n{{&lt; fa &lt;icon-name&gt; &gt;}}\nOptional &lt;group&gt;, &lt;size=...&gt;, and &lt;title=...&gt;:\n{{&lt; fa &lt;group&gt; &lt;icon-name&gt; &lt;size=...&gt; &lt;title=...&gt; &gt;}}\n\nFor example:\n\n\n\n\n\n\n\nShortcode\nIcon\n\n\n\n\n{{&lt; fa thumbs-up &gt;}}\n\n\n\n{{&lt; fa folder &gt;}}\n\n\n\n{{&lt; fa chess-pawn &gt;}}\n\n\n\n{{&lt; fa brands bluetooth &gt;}}\n\n\n\n{{&lt; fa brands twitter size=2xl &gt;}} (HTML only)\n\n\n\n{{&lt; fa brands github size=5x &gt;}} (HTML only)\n\n\n\n{{&lt; fa battery-half size=Huge &gt;}}\n\n\n\n{{&lt; fa envelope title=\"An envelope\" &gt;}}\n\n\n\n\nNote that the icon sets are currently not perfectly interchangeable across formats:\n\nhtml uses FontAwesome 6.4.2\npdf uses the fontawesome5 package, based on FontAwesome 5.\nOther formats are currently not supported, but PRs are always welcome!"
   }
 ]

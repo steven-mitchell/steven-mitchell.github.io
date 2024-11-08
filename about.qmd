@@ -1,17 +1,40 @@
 ---
-title: "About"
+title: "About **ME**"
 ---
 
-## What I do for work
+## Then
 
-<p class=".title">boobs</p>
+<p class=".title">
+
+I spent 8 years working as a wildlife biologist. I worked for the Forest Service - Region 5, Olympic and Mount Rainier National Parks, and Turnstone Environmental Consultants. I worked to monitor carnivore populations in the Sierra Nevadas, consult on ESA section 7 surveys for threatened and endangered bird species, mitigate human-wildlife conflict, and research zoonotic diseases.
+
+</p>
+
+## Now
+
+<p class=".title">
+
+In June 2025, I'm wrapping up my Master's of Environmental Science & Management at UCSB's Bren School. I've focused on technical training in data science, statistics, conservation planning, and environmental policy.
+
+</p>
+
+## Soon
+
+<p>I aim to work in the non-profit or public sectors applying quantitative techniques to environmental problem solving.</p>
 
 ## What I do for fun
 
-<p class=".orange-text">boobs</p>
+<p class=".orange-text">
 
-[here is some more text]{.orange-text}
+I backcountry ski, mountaineer, backpack, bike-pack, white-water paddle board, and generally get into stupid situations.
 
-::: {.orange-text}
-bewbeez
+</p>
+
+::: orange-text
+FIGHT ME.
+:::
+
+::: sneaky-text
+I thought you wouldn't find this sneaky text. Dang, this is embarassing...
+
 :::
