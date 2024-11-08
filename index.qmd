@@ -22,4 +22,4 @@ about:
 # Steven Mitchell
 ## Wildlife Biologist $\bullet$ Data Scientist
 
-Welcome to my weird website! It's currently in development. Have a look around and you might find wildlife photography, work samples, publications, or maybe even a resume, but no promises.
+Welcome to my weird lil website! It's currently in development. Have a look around and you might find wildlife photography, work samples, publications, or maybe even a resume, but no promises.

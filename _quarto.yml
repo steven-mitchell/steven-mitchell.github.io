@@ -13,8 +13,8 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - href: resources.qmd
-        text: Work Samples
+      - href: portfolio.qmd
+        text: Work Portfolio
       - href: photography.qmd
         text: Wildlife Photography
   page-footer:
