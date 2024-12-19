@@ -23,35 +23,35 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About ME",
+    "title": "About Me",
     "section": "",
     "text": "I spent 8 years working as a wildlife biologist. I worked for the Forest Service - Region 5, Olympic and Mount Rainier National Parks, and Turnstone Environmental Consultants. I worked to monitor carnivore populations in the Sierra Nevadas, consult on ESA section 7 surveys for threatened and endangered bird species, mitigate human-wildlife conflict, and research zoonotic diseases."
   },
   {
     "objectID": "about.html#then",
     "href": "about.html#then",
-    "title": "About ME",
+    "title": "About Me",
     "section": "",
     "text": "I spent 8 years working as a wildlife biologist. I worked for the Forest Service - Region 5, Olympic and Mount Rainier National Parks, and Turnstone Environmental Consultants. I worked to monitor carnivore populations in the Sierra Nevadas, consult on ESA section 7 surveys for threatened and endangered bird species, mitigate human-wildlife conflict, and research zoonotic diseases."
   },
   {
     "objectID": "about.html#now",
     "href": "about.html#now",
-    "title": "About ME",
+    "title": "About Me",
     "section": "Now",
-    "text": "Now\n\nIn June 2025, I’m wrapping up my Master’s of Environmental Science & Management at UCSB’s Bren School. I’ve focused on technical training in data science, statistics, conservation planning, and environmental policy."
+    "text": "Now\n\nIn June 2025, I’m wrapping up my Master’s of Environmental Science & Management at UCSB’s Bren School. I’ve focused on technical training in data science, statistics, conservation planning, and environmental policy. My Master’s project is a professionally-oriented policy project helping the collaborative forest management group, The Upper South Platte Partnership integrate climate adaptation into group decision-making to maximize landscape-scale resiliency. This project has a team of five Master’s students at the Bren School, with me as the project manager."
   },
   {
     "objectID": "about.html#soon",
     "href": "about.html#soon",
-    "title": "About ME",
+    "title": "About Me",
     "section": "Soon",
-    "text": "Soon\n\nI aim to work in the non-profit or public sectors applying quantitative techniques to environmental problem solving."
+    "text": "Soon\n\nI will be soon be starting a new position as Wildlife Biologist at Redwood National Park, where I’ll be managing and developing a California Condor Recovery Program in collaboration with the Yurok Tribe."
   },
   {
     "objectID": "about.html#what-i-do-for-fun",
     "href": "about.html#what-i-do-for-fun",
-    "title": "About ME",
+    "title": "About Me",
     "section": "What I do for fun",
     "text": "What I do for fun\n\nI backcountry ski, mountaineer, backpack, bike-pack, white-water paddle board, and generally get into stupid situations.\n\n\nFIGHT ME.\n\n\nI thought you wouldn’t find this sneaky text. Dang, this is embarassing…"
   },
@@ -61,5 +61,19 @@
     "title": "Font Awesome Quarto Extension",
     "section": "",
     "text": "This extension allows you to use font-awesome icons in your Quarto HTML and PDF documents. It provides an {{&lt; fa &gt;}} shortcode:\n\nMandatory &lt;icon-name&gt;:\n{{&lt; fa &lt;icon-name&gt; &gt;}}\nOptional &lt;group&gt;, &lt;size=...&gt;, and &lt;title=...&gt;:\n{{&lt; fa &lt;group&gt; &lt;icon-name&gt; &lt;size=...&gt; &lt;title=...&gt; &gt;}}\n\nFor example:\n\n\n\n\n\n\n\nShortcode\nIcon\n\n\n\n\n{{&lt; fa thumbs-up &gt;}}\n\n\n\n{{&lt; fa folder &gt;}}\n\n\n\n{{&lt; fa chess-pawn &gt;}}\n\n\n\n{{&lt; fa brands bluetooth &gt;}}\n\n\n\n{{&lt; fa brands twitter size=2xl &gt;}} (HTML only)\n\n\n\n{{&lt; fa brands github size=5x &gt;}} (HTML only)\n\n\n\n{{&lt; fa battery-half size=Huge &gt;}}\n\n\n\n{{&lt; fa envelope title=\"An envelope\" &gt;}}\n\n\n\n\nNote that the icon sets are currently not perfectly interchangeable across formats:\n\nhtml uses FontAwesome 6.4.2\npdf uses the fontawesome5 package, based on FontAwesome 5.\nOther formats are currently not supported, but PRs are always welcome!"
+  },
+  {
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "Work Samples",
+    "section": "",
+    "text": "Soon, this page will contain a blog-formatted gallery of selected work samples from my portfolio of projects.\nSome examples are:\n\nA technical report wherein I develop Maxent species distribution models for migratory tree-roosting bat species in Washington State, map wind energy site suitability, and spatially compare the two to identify areas for new wind energy development that minimizes bat mortality.\nA Shiny app that explores nationwide data of bird captures at MAPS banding stations, with an associated population model that predicts species abundances based on mark-recapture data.\nR Quarto documents of various geospatial analyses run in R with associated maps.\nR Quarto documents of various population models I’ve run in R.\nResults and maps of various habitat connectivity models such as Circuitscape.\nAnd likely more such things related to Planetary Health."
+  },
+  {
+    "objectID": "photography.html",
+    "href": "photography.html",
+    "title": "Some critters I’ve spotted",
+    "section": "",
+    "text": "Soon, this page will contain a gallery of wildlife photography captured by yours truly. There will be gelada monkeys, American martens, mountain goats, American pika, northern spotted owls, barred owls, osprey, elk, and so many birds. Like a lot of birds."
   }
 ]
