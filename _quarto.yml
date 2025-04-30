@@ -14,8 +14,13 @@ website:
         text: Home
       - href: about.qmd
         text: About Me
+<<<<<<< HEAD
       - href: projects.qmd
         text: Projects
+=======
+      - href: portfolio.qmd
+        text: Work Samples
+>>>>>>> e30b07bed4149ba0cba1ab7c43b4b25b6c765f11
       - href: photography.qmd
         text: Wildlife Photography
   page-footer:
