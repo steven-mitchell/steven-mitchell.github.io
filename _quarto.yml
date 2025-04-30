@@ -18,6 +18,8 @@ website:
         text: Projects
       - href: photography.qmd
         text: Wildlife Photography
+      - href: steven-mitchell-resume.pdf
+        text: Resume
   page-footer:
     background: light
     left: Copyright 2024, Steven Mitchell

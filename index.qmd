@@ -1,6 +1,7 @@
 ---
-# title: "Steven Mitchell"
+title: "Steven Mitchell"
 image: "images/headshot.jpg"
+image-alt: "Steven Mitchell"
 about:
   template: trestles
   image-shape: round
@@ -19,8 +20,20 @@ about:
       target: _blank
 ---
 
-# Steven Mitchell
+# I bet you're wondering why I gathered you here today...
 
-## Wildlife Biologist $\bullet$ Data Scientist
+Welcome to my weird lil website! It's currently in development, so don't judge too harshly. But do feel free to let me know if you find a glitch!
 
-Welcome to my weird lil website! It's currently in development. Have a look around and you might find wildlife photography, work samples, publications, or maybe even a resume, but no promises.
+# Professional Interests
+
+Wildlife Ecology | Conservation Planning
+
+# Skills & Competencies
+
+Project Management | Wildlife Capture & Handling | Geospatial Analysis & Remote Sensing | Fieldwork Leadership | Data Science | Stakeholder Engagement | R Programming | Statistical Analysis | Machine Learning
+ 
+# Recent & Ongoing Projects
+ 
+ <a href="https://bren.ucsb.edu/projects/integrating-climate-adaptation-strategies-local-collaborative-forest-management-northern"> **Master's Project:** Integrating Climate Adaptation Strategies into Local Collaborative Forest Management in Northern Colorado </a>
+ 
+ 
