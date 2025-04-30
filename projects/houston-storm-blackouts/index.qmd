@@ -18,10 +18,10 @@ editor_options:
 categories: [Geospatial Analysis, R] # self-defined categories
 citation: 
   url: https://steven-mitchell.github.io/projects/houston-storm-blackouts 
-image: map_0216.png
+image: cover-img.jpg
 ---
 
-![My map of reduced night light in Houston, TX following the winter storms of 2021. See main content below for more detail.](map_0216.png)
+![Photo source: <a href="https://www.soa.org/news-and-publications/newsletters/general-insurance/2021/june/gii-2021-06/texas-winter-storm-2021-accounting-for-subsequent-events/"> soa.org </a>](cover-img.jpg)
 
 # Purpose
 
