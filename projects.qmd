@@ -8,3 +8,19 @@ listing:
 ---
 
 I am a very fancy geospatial analyst, conservation planner, and data scientist so you should look at these projects that demonstrate my technical skills and competencies.
+
+My personal to-do list for adding my projects:
+
+- Population Biology Portfolio
+- Conservation Planning Practicum
+- Conservation Planning Examples for:
+  - Maxent
+  - Circuitscape
+  - Prioritizr
+  - Check for more of interest
+- Environmental Modeling Portfolio
+- Planetary Health Project
+- Master's Group Project
+- Some GIS maps (as opposed to R maps)
+- My bird population Shiny app
+- Advanced Data Analysis Portfolio
