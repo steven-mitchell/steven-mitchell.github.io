@@ -4,17 +4,18 @@ project:
 
 website:
   title: "Steven Mitchell"
-  favicon: images/wiccan-logo.jpg
+  favicon: images/piko-logo.jpg
   navbar:
     title: false
-    logo: images/wiccan-logo.jpg
-    logo-alt: "Wiccan circle with the eyes of a black cat gazing out."
+    logo: images/piko-logo.jpg
+    logo-alt: "The eyes of Piko, my black cat gazing out from a dark green background."
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-      - href: resources.qmd
-        text: Work Samples
+      - href: about.qmd
+        text: About Me
+      - href: projects.qmd
+        text: Projects
       - href: photography.qmd
         text: Wildlife Photography
   page-footer:

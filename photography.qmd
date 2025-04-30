@@ -1,4 +1,21 @@
 ---
-title: "Oh man, look at these critters."
-
+title: "Some critters I've spotted"
 ---
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Soon, this page will contain a gallery of wildlife photography captured by yours truly. There will be gelada monkeys, American martens, mountain goats, American pika, northern spotted owls, barred owls, osprey, elk, and so many birds. Like a lot of birds.
+=======
+Soon, this page will contain a gallery of wildlife photography captured by yours truly. There will be gelada monkeys, American martens, mountain goats, American pika, northern spotted owls, barred owls, osprey, elk, and so many birds. Like a lot of birds.
+>>>>>>> e30b07bed4149ba0cba1ab7c43b4b25b6c765f11
+=======
+Soon, this page will contain a gallery of wildlife photography captured by yours truly. There will be gelada monkeys, American martens, mountain goats, American pika, northern spotted owls, barred owls, osprey, elk, and so many birds. Like a lot of birds.
+>>>>>>> e30b07bed4149ba0cba1ab7c43b4b25b6c765f11
+=======
+Soon, this page will contain a gallery of wildlife photography captured by yours truly. There will be gelada monkeys, American martens, mountain goats, American pika, northern spotted owls, barred owls, osprey, elk, and so many birds. Like a lot of birds.
+>>>>>>> e30b07bed4149ba0cba1ab7c43b4b25b6c765f11
+=======
+Soon, this page will contain a gallery of wildlife photography captured by yours truly. There will be gelada monkeys, American martens, mountain goats, American pika, northern spotted owls, barred owls, osprey, elk, and so many birds. Like a lot of birds.
+>>>>>>> e30b07bed4149ba0cba1ab7c43b4b25b6c765f11

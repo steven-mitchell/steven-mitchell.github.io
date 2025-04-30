@@ -1,5 +1,5 @@
 ---
-title: "About **ME**"
+title: "About Me"
 ---
 
 ## Then
@@ -14,13 +14,11 @@ I spent 8 years working as a wildlife biologist. I worked for the Forest Service
 
 <p class=".title">
 
-In June 2025, I'm wrapping up my Master's of Environmental Science & Management at UCSB's Bren School. I've focused on technical training in data science, statistics, conservation planning, and environmental policy.
-
-</p>
+In June 2025, I'm wrapping up my Master's of Environmental Science & Management at UCSB's Bren School. I've focused on technical training in data science, statistics, conservation planning, and environmental policy. My Master's project is a professionally-oriented policy project helping the collaborative forest management group, The Upper South Platte Partnership integrate climate adaptation into group decision-making to maximize landscape-scale resiliency. This project has a team of five Master's students at the Bren School, with me as the project manager.
 
 ## Soon
 
-<p>I aim to work in the non-profit or public sectors applying quantitative techniques to environmental problem solving.</p>
+<p>I will be soon be starting a new position as Wildlife Biologist at Redwood National Park, where I'll be managing and developing a California Condor Recovery Program in collaboration with the Yurok Tribe.</p>
 
 ## What I do for fun
 
@@ -36,5 +34,4 @@ FIGHT ME.
 
 ::: sneaky-text
 I thought you wouldn't find this sneaky text. Dang, this is embarassing...
-
 :::
