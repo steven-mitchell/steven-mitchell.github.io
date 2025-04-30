@@ -2,7 +2,7 @@
 title: "Houston Storm Blackouts"
 subtitle: "Identifying the impacts of extreme weather"
 author: "Steven Mitchell"
-date: last-modified
+date: 11-09-2024
 execute: 
   eval: false
   echo: true

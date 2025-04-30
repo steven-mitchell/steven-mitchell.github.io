@@ -4,7 +4,7 @@ subtitle: "Investigating the connection between White-nose syndrome in bats and 
 author: 
   - Madison Calbert
   - Steven Mitchell
-date: last-modified
+date: 03-13-2025
 execute: 
   eval: false
   echo: true
@@ -17,7 +17,7 @@ format:
     embed-resources: true
 editor_options: 
   chunk_output_type: console
-categories: [Wildlife Geospatial Analysis, R] # self-defined categories
+categories: [Wildlife, Geospatial Analysis, R] # self-defined categories
 citation: 
   url: https://steven-mitchell.github.io/projects/bats-wns-and-pesticide-use/ 
 image: bat-wns.jpeg

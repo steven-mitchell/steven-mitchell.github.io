@@ -2,7 +2,7 @@
 title: "Redlining & Biodiversity in L.A."
 subtitle: "Exploring patterns of environmental justice"
 author: "Steven Mitchell"
-date: last-modified
+date: 10-19-2024
 execute: 
   eval: false
   echo: true
