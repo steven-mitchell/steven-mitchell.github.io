@@ -24,12 +24,14 @@ image: holc-scan.jpg
 ![A scan of a Home Owners’ Loan Corporation (HOLC) map in the public domain and downloaded from the National Archives City Survey Files, 1935-1940](holc-scan.jpg)
 
 # Purpose
+
 This repository demonstrates my analysis of historical redlining in Los Angeles and its modern day impacts to community health and biodiversity metrics.
 
 ## Skills and Techniques Demonstrated
-- Build effective, responsible, accessible and aesthetically-pleasing maps
-- Manipulate vector and raster data to build multi-layer maps
-- Spatial analysis between vector and raster datasets
+
+-   Build effective, responsible, accessible and aesthetically-pleasing maps
+-   Manipulate vector and raster data to build multi-layer maps
+-   Spatial analysis between vector and raster datasets
 
 ```{r}
 # load packages
@@ -225,10 +227,12 @@ ggsave("chart_birds.png", chart_birds)
 These results do not match the findings from Ellis-Soto et al. 2023. Whereas that study found that historically redlined neighborhoods were drastically under-surveyed in citizen science, these results show the second highest number of bird observations in those same redlined neighborhoods. This is surprising because of the human health impacts illustrated in Part 1. There could be a number of possible explanations for the discrepancy, one of which could be disparate vulnerabilities to air pollution between humans and birds.
 
 # Acknowledgements
+
 This analysis and workflow was originally created by Dr. Ruth Oliver of the Bren School of Environmental Science & Management for the Masters of Environmental Data Science course, Geospatial Analysis and Remote Sensing. My initial work through of this analysis was conducted as part of a homework assignment for this class, and I later polished up this repository.
 
 ## Data
-The data used in this analysis is too large to be hosted on GitHub. Instead, download the data  <a href="https://drive.google.com/file/d/14CauXFZkVh_6z2Euq0m1Sq1kHQ31fiMk/view?usp=sharing"> here </a> as a zipped folder, unzip, and move into the R project manually.
+
+The data used in this analysis is too large to be hosted on GitHub. Instead, download the data <a href="https://drive.google.com/file/d/14CauXFZkVh_6z2Euq0m1Sq1kHQ31fiMk/view?usp=sharing"> here </a> as a zipped folder, unzip, and move into the R project manually.
 
 ## Citations
 
