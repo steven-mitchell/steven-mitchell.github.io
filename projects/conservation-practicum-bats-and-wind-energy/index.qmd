@@ -1,0 +1,86 @@
+---
+title: "Minimizing Bat Mortality at New Wind Energy Sites in Washington State"
+subtitle: "Completed in Fulfilment of my Master's Conservation Planning Practicum"
+author: "Steven Mitchell"
+date: 12-05-2024
+execute: 
+  eval: false
+  echo: true
+  warning: false
+  message: false
+format:
+  html:
+    toc: true
+    number-sections: true
+    code-fold: true
+    embed-resources: true
+editor_options: 
+  chunk_output_type: console
+categories: [Conservation Planning, Wildlife, Geospatial Analysis, R] # self-defined categories
+citation: 
+  url: https://steven-mitchell.github.io/projects/conservation-practicum-bats-and-wind-energy/ 
+image: cover.png
+---
+
+![](cover.png)
+
+# Abstract
+
+# Background
+
+As an alternative to fossil fuels and hydroelectric power, wind energy facilities have expanded greatly in recent years and the Inflation Reduction Act passed in 2022 has further encouraged wind energy development1. However, wind energy facilities have been shown to result in increased mortality of bats, especially migratory tree-roosting species such as hoary bats (Lasiurus cinereus) and silver-haired bats (Lasionycteris noctivagans)2. These species are inconspicuous migratory bats that travel long distances and go largely unnoticed by humans but have a large impact on insect populations3. A significant decline in the populations of these species would likely lead to impacts on agricultural pest populations that are difficult to predict3.
+
+# Scope
+
+Washington State provides a convenient frame on this issue as there are some existing turbines with associated mortality data, significant room for development of additional wind energy facilities, and there is ample occurrence data on these two species4,5. In Washington, hydroelectric power represents roughly 60% of statewide electricity production, with natural gas at 18%, wind energy at 8%, nuclear energy at 8%, coal plants at 4%, and the remaining 2% consisting of a variety of other sources including solar energy6. Across the state of Washington, 1,823 wind turbines have already been installed5. Due to increasing concern about the impacts of wind energy facilities on bat populations, there is a growing need to incorporate considerations of bat habitat suitability into wind energy site placement2,7,8. 
+
+# Objectives
+
+I aim to identify the best locations for wind energy development in Washington state that avoid conflict with migratory tree roosting bat distributions. This overarching objective consists of three parts: 
+
+    1.	Construct species distribution models (SDMs) for hoary bats and silver-haired bats
+    2.	Map wind energy site suitability
+    3.	Assess the spatial relationship between the above 
+
+# Methods
+
+## Species Distribution Models for Each Species
+
+I followed the methods used by Huang et al 2024 to build habitat suitability models for hoary bats and silver-haired bats8. I applied the habitat suitability model Maxent within the R package Wallace to create seasonal habitat suitability maps for hoary bats and silver-haired bats. I downloaded the WorldClim2 environmental data set and used variables identified as important to these bat species’ ecologies in Huang et al. 2024 and Weller and Baldwin 2012: temperature,  vapor pressure, solar radiation, precipitation, and wind speed8–10. 
+The Maxent species distribution model is dependent on large quantities of high-quality occurrence data. For this purpose, I used occurrence data from acoustic monitoring coordinated by the North American Bat Monitoring Program (NABat). This database consists of results from continent-wide, systematic surveys conducted by trained biologists with state-of-the-art equipment4. As such, it represents the largest database of its kind and houses data with the highest possible confidence in species identification derived from consistent survey effort.4 Because these species are migratory and their energetic needs vary seasonally, I temporally sliced the climate data to conduct a separate SDM for each three-month season3,8,10.
+I ran Maxent for each species for each season for a total of 8 SDMs. I ran all SDMs with various combinations of parameters until I identified the settings that yielded the highest area-under-the-curve (AUC) scores. This combination of settings was to spatially partition the occurrence data by Wallace’s checkerboard 2 function, select the linear, hinge, and quadratic feature classes, set the regularization multiplier to 0.5, and not use clamping or parallel processing.
+
+### Occurrence Data
+
+The NABat occurrence data was formatted as rows of individual detections and contained three variables relevant to my objectives: Date/time, location geometry, and species ID. The location geometry was provided in Well-Known Binary (WKB), which needed to be converted into latitude and longitude for compatibility with Wallace. Brian Lee provided me with a python script which accomplished this and is detailed in Appendix A. 
+
+### Climate Data 
+
+I downloaded climate data from the WorldClim2 database based on 5 of the 6 variables relevant to the ecology of the two bat species: air temperature, solar radiation, wind speed, precipitation, and vapor pressure.3,8,10 Moon phase is also known to be an important indicator of bat occurrences, but because it is meaningless when formatted as a seasonal average, I excluded it from this analysis10. The data was provided as monthly averages, and I aggregated it into 3-month seasonal averages for Spring (February – April), Summer (May – July), Fall (August – October), and Winter (November – January). 
+
+##	Wind Energy Site Suitability 
+
+I mapped wind energy site suitability according to the six criteria outlined in Miller and Li 201411. These criteria are slope, wind energy potential, land use, population density, distance to transmission lines, and distance to roads. In further accordance with the methods of Miller and Li 2014, I excluded certain areas as categorically unsuitable for wind energy development. These excluded areas are 1600 meters around urban areas, 1600 meters around airports, 100 meters around roads, 100 meters around railroads, wetlands, and protected conservation areas11.I downloaded these data from the US census, USGS, and the National Renewable Energy Laboratory (NREL)12–14. I calculated wind energy site suitability ratings according to the multi-criteria rating scheme developed in Miller and Li 2014 shown in Table 111. I calculated suitability scores based on a weighted mean of the input rasters according to the values in Table 2, derived from the methods of Miller and Li 2014 and used by Huang et al 20248,11,15,16  I then masked the resulting raster using the shapefiles of the excluded areas.
+
+|Suitability Score (0-4) | Slope (°) | Wind Speed (m/s) | Land Use | Population Density (pop)  | Distance to Transmission Lines (m) | Distance to Major Road (m) |
+|---|---|---|---|---|---|---|---|
+| High (4) |	[0, 7] |	>7.5	| Agriculture/Barren |	(0, 25] |	(0, 5000] |	(0, 1000] |
+| Medium (3)	| (7, 16]	| (7, 7.5]	| Grassland	| (25, 50]	| (5000, 10000]	| (1000, 2500] |
+| Low (2)	| (16, 30]	| (6.4, 7] |	Shrub land |	(50, 100] | (10000, 15000]	| (2500, 5000] |
+| Lowest (1)	| (30, 40]	| (5.6, 6.4]	| Forest/Woodland |	(100, 150]	| (15000, 20000]	| (5000, 10000] |
+| Unsuitable (0)	| >40 |	(0, 5.6]	| Wetlands/Urban/Water |	>150	| >20000 |	>10000 |
+
+: **Table 1:** Wind energy site suitability ranking approach for input rasters.
+
+| Layer | Assigned Weight |
+|---|---|
+| Wind Speed | 3 |
+|Slope | 2 |
+| Land Cover | 2 |
+| Population Density | 1 |
+|Distance to transmission ;ines | 1 |
+| Distance to roads | 2 |
+
+: **Table 2:** Weights assigned to each input raster for wind site suitability.
+
+# To be continued: Work in Progress
