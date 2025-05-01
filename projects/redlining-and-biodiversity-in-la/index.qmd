@@ -1,6 +1,8 @@
 ---
 title: "Redlining & Biodiversity in L.A."
 subtitle: "Exploring patterns of environmental justice"
+description: "**Skill Demonstration:** Build effective, responsible, accessible and aesthetically-pleasing maps**;** Manipulate vector and raster data to build multi-layer maps**;** Spatial analysis between vector and raster datasets"
+
 author: "Steven Mitchell"
 date: 10-19-2024
 execute: 
