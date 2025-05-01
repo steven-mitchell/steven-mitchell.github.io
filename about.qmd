@@ -28,6 +28,6 @@ In June 2025, I'm wrapping up my Master's at UCSB's <a href="https://bren.ucsb.e
 ![An adult mountain goat (*Oreamnos americanus*) getting a veterinary workup as part of the Olympic Montain Goat Relocation Project](images/mtn-goat-workup.jpg)
 :::
 
-:::
+::: orange-text
 <a href="https://www.linkedin.com/in/steven-mitchell-94b664208/"> Hire me! </a>
 :::
