@@ -29,5 +29,5 @@ In June 2025, I'm wrapping up my Master's at UCSB's <a href="https://bren.ucsb.e
 :::
 
 ::: orange-text
-Hire me!
+<a href="https://www.linkedin.com/in/steven-mitchell-94b664208/"> Hire me! </a>
 :::
