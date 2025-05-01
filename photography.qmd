@@ -37,3 +37,7 @@ title: "Some critters I've spotted"
 
 ![The elsuive portrait of an American pika (*Ochotona princeps*) living in the shadow of Asgard Pass in the Washington Cascades](images/photography/pika.jpg)
 :::
+
+:::
+<a href="https://www.linkedin.com/in/steven-mitchell-94b664208/"> Hire me! </a>
+:::
