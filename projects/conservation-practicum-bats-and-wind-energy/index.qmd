@@ -1,6 +1,6 @@
 ---
 title: "Minimizing Bat Mortality at New Wind Energy Sites in Washington State"
-subtitle: "Completed in Fulfilment of my Master's Conservation Planning Practicum"
+description: "Master's Conservation Planning Practicum"
 author: "Steven Mitchell"
 date: 12-05-2024
 execute: 
@@ -26,21 +26,21 @@ image: cover.png
 
 # Abstract
 
-# Background
+# Introduction
 
 As an alternative to fossil fuels and hydroelectric power, wind energy facilities have expanded greatly in recent years and the Inflation Reduction Act passed in 2022 has further encouraged wind energy development1. However, wind energy facilities have been shown to result in increased mortality of bats, especially migratory tree-roosting species such as hoary bats (Lasiurus cinereus) and silver-haired bats (Lasionycteris noctivagans)2. These species are inconspicuous migratory bats that travel long distances and go largely unnoticed by humans but have a large impact on insect populations3. A significant decline in the populations of these species would likely lead to impacts on agricultural pest populations that are difficult to predict3.
 
-# Scope
+## Scope
 
 Washington State provides a convenient frame on this issue as there are some existing turbines with associated mortality data, significant room for development of additional wind energy facilities, and there is ample occurrence data on these two species4,5. In Washington, hydroelectric power represents roughly 60% of statewide electricity production, with natural gas at 18%, wind energy at 8%, nuclear energy at 8%, coal plants at 4%, and the remaining 2% consisting of a variety of other sources including solar energy6. Across the state of Washington, 1,823 wind turbines have already been installed5. Due to increasing concern about the impacts of wind energy facilities on bat populations, there is a growing need to incorporate considerations of bat habitat suitability into wind energy site placement2,7,8. 
 
-# Objectives
+## Objectives
 
 I aim to identify the best locations for wind energy development in Washington state that avoid conflict with migratory tree roosting bat distributions. This overarching objective consists of three parts: 
 
-    1.	Construct species distribution models (SDMs) for hoary bats and silver-haired bats
-    2.	Map wind energy site suitability
-    3.	Assess the spatial relationship between the above 
+  1.	Construct species distribution models (SDMs) for hoary bats and silver-haired bats
+  2.	Map wind energy site suitability
+  3.	Assess the spatial relationship between the above 
 
 # Methods
 

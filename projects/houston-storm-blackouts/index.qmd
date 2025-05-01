@@ -1,6 +1,7 @@
 ---
 title: "Houston Storm Blackouts"
 subtitle: "Identifying the impacts of extreme weather"
+description: "**Skill Demonstration:** Manipulating vector & raster data**;** Spatial joins across data types**;** Spatial analysis across data types"
 author: "Steven Mitchell"
 date: 11-09-2024
 execute: 

@@ -1,6 +1,7 @@
 ---
 title: "White-Nose Syndrome and Pesticides"
 subtitle: "Investigating the connection between White-nose syndrome in bats and increases in pesticide use in agriculture."
+description: "Connecting ecosystem services with public health"
 author: 
   - Madison Calbert
   - Steven Mitchell
