@@ -1,6 +1,6 @@
 ---
 title: "Minimizing Bat Mortality at New Wind Energy Sites in Washington State"
-description: "Master's Conservation Planning Practicum"
+description: "**Master's Conservation Planning Practicum**"
 author: "Steven Mitchell"
 date: 12-05-2024
 execute: 
