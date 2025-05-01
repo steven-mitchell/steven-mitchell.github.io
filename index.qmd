@@ -26,14 +26,12 @@ Welcome to my weird lil website! It's currently in development, so don't judge t
 
 # Professional Interests
 
-Wildlife Ecology | Conservation Planning
+Conservation Planning   $\bullet$   Wildlife Ecology   $\bullet$    Climate Adaptation
 
 # Skills & Competencies
 
-Project Management | Wildlife Capture & Handling | Geospatial Analysis & Remote Sensing | Fieldwork Leadership | Data Science | Stakeholder Engagement | R Programming | Statistical Analysis | Machine Learning
- 
+Project Management $\bullet$ Wildlife Capture & Handling $\bullet$ Geospatial Analysis & Remote Sensing $\bullet$ Fieldwork Leadership $\bullet$ Data Science $\bullet$ Population Modeling $\bullet$ Stakeholder Engagement $\bullet$ R Programming $\bullet$ Statistical Analysis $\bullet$ Machine Learning
+
 # Recent & Ongoing Projects
- 
- <a href="https://bren.ucsb.edu/projects/integrating-climate-adaptation-strategies-local-collaborative-forest-management-northern"> **Master's Project:** Integrating Climate Adaptation Strategies into Local Collaborative Forest Management in Northern Colorado </a>
- 
- 
+
+<a href="https://bren.ucsb.edu/projects/integrating-climate-adaptation-strategies-local-collaborative-forest-management-northern"> **Master's Project:** Integrating Climate Adaptation Strategies into Local Collaborative Forest Management in Northern Colorado </a>
