@@ -36,4 +36,4 @@ Project Management $\bullet$ Wildlife Capture & Handling $\bullet$ Geospatial An
 
 <a href="https://steven-mitchell.github.io/projects/conservation-practicum-bats-and-wind-energy/"> **Master's Conservation Planning Practicum:** Minimizing Bat Mortality at New Wind Energy Sites in Washington State </a>
 
-<a href="https://bren.ucsb.edu/projects/integrating-climate-adaptation-strategies-local-collaborative-forest-management-northern"> **Master's Project:** Integrating Climate Adaptation Strategies into Local Collaborative Forest Management in Northern Colorado </a>
+<a href="https://bren.ucsb.edu/projects/integrating-climate-adaptation-strategies-local-collaborative-forest-management-northern"> **Master's Group Project:** Integrating Climate Adaptation Strategies into Local Collaborative Forest Management in Northern Colorado </a>
