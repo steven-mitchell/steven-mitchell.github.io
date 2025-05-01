@@ -8,26 +8,32 @@ title: "About Me"
 
 I spent 8 years working as a wildlife biologist. I worked for the Forest Service - Region 5, Olympic and Mount Rainier National Parks, and Turnstone Environmental Consultants. I worked to monitor carnivore populations in the Sierra Nevadas, consult on ESA section 7 surveys for threatened and endangered bird species, mitigate human-wildlife conflict, and research zoonotic diseases.
 
-</p>
-
-## Now
-
-<p class=".title">
-
 In June 2025, I'm wrapping up my Master's of Environmental Science & Management at UCSB's Bren School. I've focused on technical training in data science, statistics, conservation planning, and environmental policy. My Master's project is a professionally-oriented policy project helping the collaborative forest management group, The Upper South Platte Partnership integrate climate adaptation into group decision-making to maximize landscape-scale resiliency. This project has a team of five Master's students at the Bren School, with me as the project manager.
-
-## What I do for fun
-
-<p class=".orange-text">
 
 I backcountry ski, mountaineer, backpack, bike-pack, white-water paddle board, and generally get into stupid situations.
 
 </p>
 
+::: {layout-ncol=2}:::
+![My TNC Client, my project collaborator, and I at our study site on the Upper South Platte River for my Master's project](images/usp-izzy-rob.jpg)
+
+![A barred owl (*Strix varia*) that found herself caught in my mist net one morning](images/me-with-stva.jpg)
+
+![My best friend, Piko (**Felis catus)](images/poke-piko.jpg)
+
+![A little brown bat (*Myotis lucifigus*) captured for white-nose syndrome surveillance](images/me-with-mylu.jpg)
+
+![An adult mountain goat (*Oreamnos americanus*) getting a veterinary workup as part of the Olympic Montain Goat Relocation Project](images/mtn-goat-workup.jpg)
+
+![A juvenile mountain goat kid that needed help getting from the truck to the veterinary station](images/mtn-goat-baby.jpg)
+
+
+
+![Climbing an old-growth bigleaf maple (*Acer macrophyllum*) to collect mycorrhizal samples from its canopy soil ](images/climbing-maple.jpg)
+
+:::
+
 ::: orange-text
 Hire me!
 :::
 
-::: sneaky-text
-I thought you wouldn't find this sneaky text. Dang, this is embarassing...
-:::
