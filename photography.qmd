@@ -2,4 +2,38 @@
 title: "Some critters I've spotted"
 ---
 
-Soon, this page will contain a gallery of wildlife photography captured by yours truly. There will be gelada monkeys, American martens, mountain goats, American pika, northern spotted owls, barred owls, osprey, elk, and so many birds. Like a lot of birds.
+![A juvenile black-tailed deer (*Odocoileus hemionus columbianus*)deer at Sand Point in Olympic National PArk](images/photography/baby-deer-headshot.jpg)
+
+::: {layout-ncol="2"}
+
+{{< video images/photography/bat-slomo-stehekin22.mp4 width="560" height="900">}}
+
+{{< video images/photography/marten.mp4 width="560" height="900">}}
+
+![A marten (*Martes american*) spotted near Nederland, CO](images/photography/marten-headshot.jpg)
+
+![A marten (*Martes american*) spotted near Nederland, CO](images/photography/marten-upside-down.jpg)
+
+![The same baby deer (*Odocoileus hemionus columbianus* from the top of this page)](images/photography/baby-deer-beach.jpg)
+
+![A northern spotted owl (*Strix occidentalis caurina*) I followed to its nest on Mt Hood](images/photography/stoc-mousing.jpg)
+
+![A little brown bat (*Myotis californianus*) affixed with a wing band to monitor roost fidelity at Mt Rainier](images/photography/mylu-headshot.jpg)
+
+![A baby gelda monkey (*Theropithecus gelada*) in the Ehtiopian highlands](images/photography/gelada-baby.jpg)
+
+![An adult male gelda monkey (*Theropithecus gelada*) in the Ehtiopian highlands](images/photography/gelada-headshot.jpg)
+
+
+![An adult male gelda monkey (*Theropithecus gelada*) in the Ehtiopian highlands](images/photography/gelada-demonstrating.jpg)
+
+![River otters (*Lontra candensis*) near Asgard Pass in the Washington Cascades](images/photography/river-otters.jpg)
+
+![An Olympic marmot (*Marmota olympus*) resting after a long day of getting stuck in visitors' cars](images/photography/oly-marmot.jpg)
+
+![A female barred owl (*Strix varia*) nesting outside my cabin at Mt Rainier](images/photography/stva-wide.jpg)
+
+![A female barred owl (*Strix varia*) nesting outside my cabin at Mt Rainier](images/photography/stva-headshot.jpg)
+
+![The elsuive portrait of an American pika (*Ochotona princeps*) living in the shadow of Asgard Pass in the Washington Cascades](images/photography/pika.jpg)
+:::

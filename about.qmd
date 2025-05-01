@@ -6,12 +6,12 @@ title: "About Me"
 
 I spent 8 years working as a wildlife biologist. I worked for the Forest Service - Region 5, Olympic and Mount Rainier National Parks, Turnstone Environmental Consultants, and the National Wildlife Research Center. I worked to monitor carnivore populations in the Sierra Nevadas, consult on ESA section 7 surveys for threatened and endangered bird species, mitigate human-wildlife conflict, and research zoonotic diseases.
 
-In June 2025, I'm wrapping up my Master's at UCSB's <a href="https://bren.ucsb.edu/"> Bren School of Environmental Science & Management </a>. I've focused on technical training in geospatial analysis, conservation planning, data science, and environmental policy. 
+In June 2025, I'm wrapping up my Master's at UCSB's <a href="https://bren.ucsb.edu/"> Bren School of Environmental Science & Management </a>. I've focused on technical training in geospatial analysis, conservation planning, data science, and environmental policy.
 
 </p>
 
-::: {layout-ncol=2}:::
-![Fieldwork at Mt Rainier ](images/lake-mystic.jpg)
+::: {layout-ncol="2"}
+![Fieldwork at Mt Rainier](images/lake-mystic.jpg)
 
 ![A barred owl (*Strix varia*) that found herself caught in my mist net one morning](images/me-with-stva.jpg)
 
@@ -21,19 +21,13 @@ In June 2025, I'm wrapping up my Master's at UCSB's <a href="https://bren.ucsb.e
 
 ![A rufous hummingbird (*Selasphorus rufus*) caught at a MAPS station at Mt Rainier. Positive species identification by <a href="https://madicalbert.github.io/"> Madi Calbert, Wildlife Biologist </a>](images/hummingbird.jpg)
 
-
 ![A juvenile mountain goat (*Oreamnos americanus*) that needed help getting from the truck to the veterinary station](images/mtn-goat-baby.jpg)
 
-
-
-![Climbing an old-growth bigleaf maple (*Acer macrophyllum*) to collect mycorrhizal samples from its canopy soil ](images/climbing-maple.jpg)
-
+![Climbing an old-growth bigleaf maple (*Acer macrophyllum*) to collect mycorrhizal samples from its canopy soil](images/climbing-maple.jpg)
 
 ![An adult mountain goat (*Oreamnos americanus*) getting a veterinary workup as part of the Olympic Montain Goat Relocation Project](images/mtn-goat-workup.jpg)
-
 :::
 
 ::: orange-text
 Hire me!
 :::
-
