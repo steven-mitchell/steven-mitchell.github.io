@@ -360,21 +360,6 @@ tmap_save(map_blackouts_tracts, here("outputs", "map_blackouts_tracts.png"), dpi
 # Part 3: Comparing the median household income among impacted and un-impacted census tracts.
 
 ```{r}
-# redlining plot example
-chart_life_exp <- ggplot(table_life_exp)+
-  scale_fill_manual(values = c("darkgreen", "navyblue", "gold", "darkred"))+
-  geom_col(aes(x = grade, y = life_exp,
-               fill = grade))+
-  labs(x = "HOLC Rating", y = "Percentile for Low Life Expectancy")+
-  theme_bw()+
-  theme(legend.position = "none",
-        panel.background = element_rect(fill='transparent'), #transparent panel bg
-        plot.background = element_rect(fill='transparent', color=NA))
-#####################
-```
-
-
-```{r}
 # Add a grouping variable to your data beforehand if needed
 blackout_tracts$status <- "Impacted"
 unaffected_tracts$status <- "Unaffected"
@@ -397,7 +382,7 @@ plot_blackout_tracts <- ggplot(data = combined_tracts, aes(x = B19013e1, fill = 
         plot.background = element_rect(fill = 'transparent', color = NA))
 
 ggsave(here("outputs", "plot_blackout_tracts.png"), plot_blackout_tracts,
-       height = 5, width = 7, dpi = 400, bg = "transparent")
+       height = 45, width = 7, dpi = 400, bg = "transparent")
 ```
 
 
@@ -408,7 +393,7 @@ ggsave(here("outputs", "plot_blackout_tracts.png"), plot_blackout_tracts,
 
 Above are depicted wide spread of incomes impacted by the blackouts. Note that lower median household incomes are more highly represented than un-impacted tracts. 
 
-# Reflection
+# Discussion
 
 In the above analysis and accompanying figures, the impacts of the storm are made apparent as a visible change in night light intensity in the hoston metro area. An estimated **81914 homes experienced blackouts** according to this analysis. Further, these results suggest that blackouts occured independently of income level, as indicated by the median household incomes across census blocks. This is somewhat surprising as one might expect households with higher income to overcome barriers and power their homes (and lights). This trend implies the pervasive nature of the blackouts without readily available alternate power sources.
 
