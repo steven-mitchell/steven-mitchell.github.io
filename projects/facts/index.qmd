@@ -1,5 +1,7 @@
 ---
-title: "Integrating Climate Adaptation Strategies into Local Collaborative Forest Management in Northern Colorado: *A Case Study with the Upper South Platte Partnership*"
+draft: true
+title: "Integrating Climate Adaptation Strategies into Local Collaborative Forest Management in Northern Colorado"
+subtitle: "A Case Study with the Upper South Platte Partnership"
 description: "**Master's Group Project Presentation**"
 author: 
   - Steven Mitchell
@@ -21,9 +23,14 @@ format:
     embed-resources: true
 editor_options: 
   chunk_output_type: console
-categories: [Conservation Planning, Public Speaking, Climate Adaptation] # self-defined categories
+categories: [Public Speaking, Conservation Planning, Climate Adaptation] # self-defined categories
 citation: 
   url: https://steven-mitchell.github.io/projects/facts/ 
 image: cover.png
 ---
-<iframe width="1036" height="583" src="https://youtu.be/wtjMPZB60Nc?t=10709" title="2025 MESM Master&#39;s Project Presentations, Session B" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+{{< video "https://www.youtube.com/embed/wtjMPZB60Nc?si=xouJxlALb59JMOc1&amp 
+start="10710"
+autoplay >}}
+
