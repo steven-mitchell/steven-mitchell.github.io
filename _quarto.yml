@@ -12,8 +12,6 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: about.qmd
-        text: About Me
       - href: projects.qmd
         text: Projects
       - href: photography.qmd
@@ -23,7 +21,7 @@ website:
   page-footer:
     background: light
     left: Copyright 2024, Steven Mitchell
-    right: This website and everything contained here was coded by me in R and hosted via GitHub.
+    right: This website and everything contained here was coded by me in R and hosted via GitHub. All photos found here are also my intellectual property.
 format:
   html:
     theme: styles.scss
