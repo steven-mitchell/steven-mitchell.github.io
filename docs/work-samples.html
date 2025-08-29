@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Steven Mitchell</title>
+<title>Welcome to my portfolio of projects! – Steven Mitchell</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,9 +31,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/piko-logo.jpg" rel="icon" type="image/jpeg">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -66,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -117,11 +149,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./work-samples.html"> 
+    <a class="nav-link active" href="./work-samples.html" aria-current="page"> 
 <span class="menu-text">Work Samples</span></a>
   </li>  
   <li class="nav-item">
@@ -143,141 +175,186 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Q29uc2VydmF0aW9uJTIwUGxhbm5pbmc=">Conservation Planning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2Vvc3BhdGlhbCUyMEFuYWx5c2lz">Geospatial Analysis <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(4)</span></div><div class="category" data-category="V2lsZGxpZmU=">Wildlife <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
-<div class="quarto-about-trestles column-page">
-  <div class="about-entity">
-    <img src="images/headshot.jpg" alt="Steven Mitchell" class="about-image
-  round " style="height: 20em; width: 20em;">
+<main class="content column-page-left" id="quarto-document-content">
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Steven Mitchell</h1>
+<h1 class="title">Welcome to my portfolio of projects!</h1>
 </div>
-<div class="quarto-title-meta column-page">
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
   </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="https://www.linkedin.com/in/steven-mitchell-94b664208/" class="about-link" rel="" target="_blank">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://github.com/steven-mitchell" class="about-link" rel="" target="_blank">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="mailto:steven_mitchell@bren.ucsb.edu" class="about-link" rel="" target="_blank">
-     <span class="about-link-text">Email</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><main class="content column-page" id="quarto-document-content">
-<section id="welcome-to-my-weird-lil-website" class="level1">
-<h1>Welcome to my weird lil website!</h1>
-<p>If you’re here, I’m hoping it’s because you are considering hiring me. Please have a look at my portfolio of projects, my resume, and some of my wildlife photography. If you have any questions, please reach out!</p>
-</section>
-<section id="professional-interests" class="level1">
-<h1>Professional Interests</h1>
-<p>Conservation Planning <span class="math inline">\(\bullet\)</span> Wildlife Ecology <span class="math inline">\(\bullet\)</span> Climate Adaptation</p>
-</section>
-<section id="skills-competencies" class="level1">
-<h1>Skills &amp; Competencies</h1>
-<p>Project Management <span class="math inline">\(\bullet\)</span> Environmental Planning &amp; Compliance <span class="math inline">\(\bullet\)</span> Wildlife Capture &amp; Handling <span class="math inline">\(\bullet\)</span> Geospatial Analysis &amp; Remote Sensing <span class="math inline">\(\bullet\)</span> Fieldwork Leadership <span class="math inline">\(\bullet\)</span> Data Science <span class="math inline">\(\bullet\)</span> Population Modeling <span class="math inline">\(\bullet\)</span> Stakeholder Engagement <span class="math inline">\(\bullet\)</span> R Programming <span class="math inline">\(\bullet\)</span> Statistical Analysis <span class="math inline">\(\bullet\)</span> Machine Learning</p>
-</section>
-<section id="recent-ongoing-projects" class="level1">
-<h1>Recent &amp; Ongoing Projects</h1>
-<p><a href="https://steven-mitchell.github.io/projects/conservation-practicum-bats-and-wind-energy/"> <strong>Master’s Conservation Planning Practicum:</strong> Minimizing Bat Mortality at New Wind Energy Sites in Washington State </a></p>
-<p><a href="https://bren.ucsb.edu/projects/integrating-climate-adaptation-strategies-local-collaborative-forest-management-northern"> <strong>Master’s Group Project:</strong> Integrating Climate Adaptation Strategies into Local Collaborative Forest Management in Northern Colorado </a></p>
-</section>
-<section id="about-me" class="level1">
-<h1>About Me</h1>
-<p>I spent 8 years working as a wildlife biologist. I worked for the Forest Service’s Pacific Southwest Research Station, Olympic and Mount Rainier National Parks, Turnstone Environmental Consultants, and the National Wildlife Research Center. I worked to monitor carnivore populations in the Sierra Nevadas, consult on ESA section 7 surveys for threatened and endangered species, ensure regulatory compliance (<strong>NEPA</strong>) for transportation projects, mitigate human-wildlife conflict, and research zoonotic diseases.</p>
-<p>Most of my experience has been in some sort of leadership role, whether that was leading field crews, managing projects, or hiring and training junior biologists. I have a strong background in wildlife capture and handling, including chemical immobilization, zoonotic disease research, and physiological studies. I have experience with a variety of species, including bats, birds, ungulates, and mesocarnivores. I’ve also worked a million jobs from brewing craft beer as a certified cicerone to machining fighter jet components to trimming trees as an urban arborist.</p>
-<p>In June 2025, I’m wrapping up my Master’s at UCSB’s <a href="https://bren.ucsb.edu/"> Bren School of Environmental Science &amp; Management </a>. I’ve focused on technical training in geospatial analysis, conservation planning, data science, and environmental policy.</p>
+
+
+<p>I’m still working to polish up web-friendly pages for a variety of my past projects. If you’re looking for a specific type of work product, but I haven’t added it here yet, please reach out so I can provide the source material!</p>
 <div class="orange-text">
 <p><a href="https://www.linkedin.com/in/steven-mitchell-94b664208/"> Hire me! </a></p>
 </div>
-<div>
-</div>
-<div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/lake-mystic.jpg" class="img-fluid figure-img"></p>
-<figcaption>Fieldwork at Mt Rainier</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/me-with-stva.jpg" class="img-fluid figure-img"></p>
-<figcaption>A barred owl (<em>Strix varia</em>) that found herself caught in my mist net one morning</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/poke-piko.jpg" class="img-fluid figure-img"></p>
-<figcaption>My best friend, Piko (<em>Felis catus</em>)</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/me-with-mylu.jpg" class="img-fluid figure-img"></p>
-<figcaption>A little brown bat (<em>Myotis lucifigus</em>) captured for white-nose syndrome surveillance</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/hummingbird.jpg" class="img-fluid figure-img"></p>
-<figcaption>A rufous hummingbird (<em>Selasphorus rufus</em>) caught at a MAPS station at Mt Rainier. Positive species identification by <a href="https://madicalbert.github.io/"> Madison Calbert, Wildlife Biologist </a></figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/mtn-goat-baby.jpg" class="img-fluid figure-img"></p>
-<figcaption>A juvenile mountain goat (<em>Oreamnos americanus</em>) that needed help getting from the truck to the veterinary station</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/climbing-maple.jpg" class="img-fluid figure-img"></p>
-<figcaption>Climbing an old-growth bigleaf maple (<em>Acer macrophyllum</em>) to collect mycorrhizal samples from its canopy soil</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/mtn-goat-workup.jpg" class="img-fluid figure-img"></p>
-<figcaption>An adult mountain goat (<em>Oreamnos americanus</em>) getting a veterinary workup as part of the Olympic Montain Goat Relocation Project</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
 
 
-</section>
-</main></div>
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="V2lsZGxpZmUlMkNHZW9zcGF0aWFsJTIwQW5hbHlzaXMlMkNS" data-listing-date-sort="1741849200000" data-listing-file-modified-sort="1746118307694" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="21" data-listing-word-count-sort="4001">
+<a href="./projects/bats-wns-and-pesticide-use/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/bats-wns-and-pesticide-use/bat-wns.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+White-Nose Syndrome and Pesticides
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('V2lsZGxpZmU='); return false;">
+Wildlife
 </div>
- <!-- /main -->
+<div class="listing-category" onclick="window.quartoListingCategory('R2Vvc3BhdGlhbCUyMEFuYWx5c2lz'); return false;">
+Geospatial Analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
+R
+</div>
+</div>
+<div class="card-text listing-description">
+Connecting ecosystem services with public health
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Madison Calbert, Steven Mitchell
+</div>
+<div class="listing-date">
+Mar 13, 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Q29uc2VydmF0aW9uJTIwUGxhbm5pbmclMkNXaWxkbGlmZSUyQ0dlb3NwYXRpYWwlMjBBbmFseXNpcyUyQ1I=" data-listing-date-sort="1733385600000" data-listing-file-modified-sort="1746129344249" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="17" data-listing-word-count-sort="3350">
+<a href="./projects/conservation-practicum-bats-and-wind-energy/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/conservation-practicum-bats-and-wind-energy/cover.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Minimizing Bat Mortality at New Wind Energy Sites in Washington State
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Q29uc2VydmF0aW9uJTIwUGxhbm5pbmc='); return false;">
+Conservation Planning
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('V2lsZGxpZmU='); return false;">
+Wildlife
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R2Vvc3BhdGlhbCUyMEFuYWx5c2lz'); return false;">
+Geospatial Analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
+R
+</div>
+</div>
+<div class="card-text listing-description">
+<strong>Master’s Conservation Planning Practicum</strong>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Steven Mitchell
+</div>
+<div class="listing-date">
+Dec 5, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="R2Vvc3BhdGlhbCUyMEFuYWx5c2lzJTJDUg==" data-listing-date-sort="1731139200000" data-listing-file-modified-sort="1746205752492" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2131">
+<a href="./projects/houston-storm-blackouts/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/houston-storm-blackouts/cover-img.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Houston Storm Blackouts
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('R2Vvc3BhdGlhbCUyMEFuYWx5c2lz'); return false;">
+Geospatial Analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
+R
+</div>
+</div>
+<div class="card-text listing-description">
+<strong>Skill Demonstration:</strong> Manipulating vector &amp; raster data | Spatial joins across data types | Spatial analysis across data types
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Steven Mitchell
+</div>
+<div class="listing-date">
+Nov 9, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="R2Vvc3BhdGlhbCUyMEFuYWx5c2lzJTJDUg==" data-listing-date-sort="1729321200000" data-listing-file-modified-sort="1746137189679" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1355">
+<a href="./projects/redlining-and-biodiversity-in-la/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/redlining-and-biodiversity-in-la/holc-scan.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Redlining &amp; Biodiversity in L.A.
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('R2Vvc3BhdGlhbCUyMEFuYWx5c2lz'); return false;">
+Geospatial Analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
+R
+</div>
+</div>
+<div class="card-text listing-description">
+<strong>Skill Demonstration:</strong> Build effective, responsible, accessible and aesthetically-pleasing maps | Manipulate vector and raster data to build multi-layer maps | Spatial…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Steven Mitchell
+</div>
+<div class="listing-date">
+Oct 19, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -298,6 +375,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
