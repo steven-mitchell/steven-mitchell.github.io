@@ -10,10 +10,10 @@ website:
     logo: images/piko-logo.jpg
     logo-alt: "The eyes of Piko, my black cat gazing out from a dark green background."
     left:
-      - href: index.qmd
-        text: Home
       - href: work-samples.qmd
         text: Work Samples
+      - href: index.qmd
+        text: About Me
       - href: photography.qmd
         text: Wildlife Photography
       - href: steven-mitchell-resume.pdf
