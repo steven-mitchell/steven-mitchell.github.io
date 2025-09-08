@@ -1,17 +1,21 @@
 ---
-title: "Some critters I've spotted"
+title: "Steven Mitchell"
+title-block-banner: images/banner-orcas.jpg
+title-block-banner-color: "#011700"
 ---
+
+# Wildlife Photography
 
 ![A juvenile black-tailed deer (*Odocoileus hemionus columbianus*) at Sand Point in Olympic National Park](images/photography/baby-deer-headshot.jpg)
 
-
-
-
 ::: {layout-ncol="2"}
+![An adult male gelada monkey (*Theropithecus gelada*) in the Ethiopian highlands](images/photography/gelada-headshot.jpg)
 
-{{< video src="images/photography/bat-slomo-stehekin22.mp4" >}}
+![An adult male gelada monkey (*Theropithecus gelada*) in the Ethiopian highlands](images/photography/gelada-demonstrating.jpg)
 
-{{< video images/photography/marten.mp4>}}
+![A little brown bat (*Myotis californianus*) affixed with a wing band to monitor roost fidelity at Mt Rainier](images/photography/mylu-headshot.jpg)
+
+![A baby gelada monkey (*Theropithecus gelada*) in the Ethiopian highlands](images/photography/gelada-baby.jpg)
 
 ![A marten (*Martes american*) spotted near Nederland, CO](images/photography/marten-headshot.jpg)
 
@@ -20,15 +24,6 @@ title: "Some critters I've spotted"
 ![The same baby deer (*Odocoileus hemionus columbianus*) from the top of this page](images/photography/baby-deer-beach.jpg)
 
 ![A northern spotted owl (*Strix occidentalis caurina*) I followed to its nest on Mt Hood](images/photography/stoc-mousing.jpg)
-
-![A little brown bat (*Myotis californianus*) affixed with a wing band to monitor roost fidelity at Mt Rainier](images/photography/mylu-headshot.jpg)
-
-![A baby gelada monkey (*Theropithecus gelada*) in the Ethiopian highlands](images/photography/gelada-baby.jpg)
-
-![An adult male gelada monkey (*Theropithecus gelada*) in the Ethiopian highlands](images/photography/gelada-headshot.jpg)
-
-
-![An adult male gelada monkey (*Theropithecus gelada*) in the Ethiopian highlands](images/photography/gelada-demonstrating.jpg)
 
 ![River otters (*Lontra candensis*) near Asgard Pass in the Washington Cascades](images/photography/river-otters.jpg)
 
@@ -39,6 +34,12 @@ title: "Some critters I've spotted"
 ![A female barred owl (*Strix varia*) nesting outside my cabin at Mt Rainier](images/photography/stva-headshot.jpg)
 
 ![The elsuive portrait of an American pika (*Ochotona princeps*) living in the shadow of Asgard Pass in the Washington Cascades](images/photography/pika.jpg)
+
+![A humpback whale (*Megaptera novaeangliae*) in the Santa Barbara Channel](images/photography/humpback.jpg)
+
+{{< video src="images/photography/bat-slomo-stehekin22.mp4" >}}
+
+{{< video images/photography/marten.mp4>}}
 :::
 
 ::: orange-text

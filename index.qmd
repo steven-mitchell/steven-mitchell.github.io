@@ -2,6 +2,8 @@
 title: "Steven Mitchell"
 image: "images/headshot.jpg"
 image-alt: "Steven Mitchell"
+title-block-banner: images/banner-orcas.jpg
+title-block-banner-color: "#011700"
 about:
   template: trestles
   image-shape: round
@@ -19,22 +21,20 @@ about:
       href: mailto:steven_mitchell@bren.ucsb.edu
       target: _blank
 ---
-
-# Welcome to my weird lil website!
-
 # About Me
 
-I spent 8 years working as a wildlife biologist. I worked for the Forest Service's Pacific Southwest Research Station, Olympic and Mount Rainier National Parks, Turnstone Environmental Consultants, and the National Wildlife Research Center. I worked to monitor carnivore populations in the Sierra Nevadas, consult on ESA section 7 surveys for threatened and endangered species, ensure regulatory compliance (**NEPA**) for transportation projects, mitigate human-wildlife conflict, and research zoonotic diseases.
+I have worked as a wildlife biologist for over six years. I worked for the Forest Service's Pacific Southwest Research Station, Olympic and Mount Rainier National Parks, Turnstone Environmental Consultants, and the National Wildlife Research Center. I worked to monitor carnivore populations in the Sierra Nevadas, consult on ESA section 7 surveys for threatened and endangered species, ensure regulatory compliance (**NEPA**) for transportation projects, mitigate human-wildlife conflict, and research zoonotic diseases.
 
-Most of my experience has been in some sort of leadership role, whether that was leading field crews, managing projects, or hiring and training junior biologists. I have a strong background in wildlife capture and handling, including chemical immobilization, zoonotic disease research, and physiological studies. I have experience with a variety of species, including bats, birds, ungulates, and mesocarnivores. I've also worked a million jobs from brewing craft beer as a certified cicerone to machining fighter jet components to trimming trees as an urban arborist.
+Most of my experience has been in some sort of leadership role, whether that was leading field crews, managing projects, or hiring and training junior biologists. I have a strong background in wildlife capture and handling, including chemical immobilization, zoonotic disease research, and physiological studies. I have experience with a variety of species, including bats, birds, ungulates, and mesocarnivores. I've also worked a million other jobs between wildlife projects like brewing craft beer as a certified cicerone, machining fighter jet components, trimming trees as an urban arborist, and bartending at ski resorts to enable my snowboarding habit. 
 
-In June 2025, I wrapped up my Master's at UCSB's <a href="https://bren.ucsb.edu/"> Bren School of Environmental Science & Management </a>. I've focused on technical training in geospatial analysis, conservation planning, data science, and environmental policy.
+I went to grad school to move from fulfilling, yet unstable seasonal work to a more consistent career in conservation planning and environmental management. In June 2025, I wrapped up my Master's at UCSB's <a href="https://bren.ucsb.edu/"> Bren School of Environmental Science & Management </a>. I've focused on technical training in geospatial analysis, conservation planning, data science, and environmental policy.
 
 ::: orange-text
-<a href="https://www.linkedin.com/in/steven-mitchell-94b664208/"> Hire me! </a>
+So, if you are looking at this page, you should <a href="https://www.linkedin.com/in/steven-mitchell-94b664208/"> hire me! </a>
 :::
 
 ::: {layout-ncol="2"}
+
 ![Fieldwork at Mt Rainier](images/lake-mystic.jpg)
 
 ![A barred owl (*Strix varia*) that found herself caught in my mist net one morning](images/me-with-stva.jpg)
