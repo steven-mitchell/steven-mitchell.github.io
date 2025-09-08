@@ -6,12 +6,10 @@ title-block-banner-color: "#011700"
 
 # Wildlife Photography
 
-![A juvenile black-tailed deer (*Odocoileus hemionus columbianus*) at Sand Point in Olympic National Park](images/photography/baby-deer-headshot.jpg)
-
 ::: {layout-ncol="2"}
 ![An adult male gelada monkey (*Theropithecus gelada*) in the Ethiopian highlands](images/photography/gelada-headshot.jpg)
 
-![An adult male gelada monkey (*Theropithecus gelada*) in the Ethiopian highlands](images/photography/gelada-demonstrating.jpg)
+![A northern spotted owl (*Strix occidentalis caurina*) I followed to its nest on Mt Hood](images/photography/stoc-mousing.jpg)
 
 ![A little brown bat (*Myotis californianus*) affixed with a wing band to monitor roost fidelity at Mt Rainier](images/photography/mylu-headshot.jpg)
 
@@ -21,9 +19,9 @@ title-block-banner-color: "#011700"
 
 ![A marten (*Martes american*) spotted near Nederland, CO](images/photography/marten-upside-down.jpg)
 
-![The same baby deer (*Odocoileus hemionus columbianus*) from the top of this page](images/photography/baby-deer-beach.jpg)
+![A cold and sleepy Anna's hummingbird (*Calypte anna*)](images/photography/annas-hummingbird-blinky.jpg)
 
-![A northern spotted owl (*Strix occidentalis caurina*) I followed to its nest on Mt Hood](images/photography/stoc-mousing.jpg)
+![An adult male gelada monkey (*Theropithecus gelada*) in the Ethiopian highlands](images/photography/gelada-demonstrating.jpg)
 
 ![River otters (*Lontra candensis*) near Asgard Pass in the Washington Cascades](images/photography/river-otters.jpg)
 
@@ -41,6 +39,8 @@ title-block-banner-color: "#011700"
 
 {{< video images/photography/marten.mp4>}}
 :::
+
+![A juvenile black-tailed deer (*Odocoileus hemionus columbianus*) at Sand Point in Olympic National Park](images/photography/baby-deer-headshot.jpg)
 
 ::: orange-text
 <a href="https://www.linkedin.com/in/steven-mitchell-94b664208/"> Hire me! </a>
