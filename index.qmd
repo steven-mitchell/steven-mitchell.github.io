@@ -22,29 +22,13 @@ about:
 
 # Welcome to my weird lil website!
 
-If you're here, I'm hoping it's because you are considering hiring me. Please have a look at my portfolio of projects, my resume, and some of my wildlife photography. If you have any questions, please reach out!
-
-# Professional Interests
-
-Conservation Planning $\bullet$ Wildlife Ecology $\bullet$ Climate Adaptation
-
-# Skills & Competencies
-
-Project Management $\bullet$ Environmental Planning & Compliance  $\bullet$ Wildlife Capture & Handling $\bullet$ Geospatial Analysis & Remote Sensing $\bullet$ Fieldwork Leadership $\bullet$ Data Science $\bullet$ Population Modeling $\bullet$ Stakeholder Engagement $\bullet$ R Programming $\bullet$ Statistical Analysis $\bullet$ Machine Learning
-
-# Recent & Ongoing Projects
-
-<a href="https://steven-mitchell.github.io/projects/conservation-practicum-bats-and-wind-energy/"> **Master's Conservation Planning Practicum:** Minimizing Bat Mortality at New Wind Energy Sites in Washington State </a>
-
-<a href="https://bren.ucsb.edu/projects/integrating-climate-adaptation-strategies-local-collaborative-forest-management-northern"> **Master's Group Project:** Integrating Climate Adaptation Strategies into Local Collaborative Forest Management in Northern Colorado </a>
-
 # About Me
 
 I spent 8 years working as a wildlife biologist. I worked for the Forest Service's Pacific Southwest Research Station, Olympic and Mount Rainier National Parks, Turnstone Environmental Consultants, and the National Wildlife Research Center. I worked to monitor carnivore populations in the Sierra Nevadas, consult on ESA section 7 surveys for threatened and endangered species, ensure regulatory compliance (**NEPA**) for transportation projects, mitigate human-wildlife conflict, and research zoonotic diseases.
 
 Most of my experience has been in some sort of leadership role, whether that was leading field crews, managing projects, or hiring and training junior biologists. I have a strong background in wildlife capture and handling, including chemical immobilization, zoonotic disease research, and physiological studies. I have experience with a variety of species, including bats, birds, ungulates, and mesocarnivores. I've also worked a million jobs from brewing craft beer as a certified cicerone to machining fighter jet components to trimming trees as an urban arborist.
 
-In June 2025, I'm wrapping up my Master's at UCSB's <a href="https://bren.ucsb.edu/"> Bren School of Environmental Science & Management </a>. I've focused on technical training in geospatial analysis, conservation planning, data science, and environmental policy.
+In June 2025, I wrapped up my Master's at UCSB's <a href="https://bren.ucsb.edu/"> Bren School of Environmental Science & Management </a>. I've focused on technical training in geospatial analysis, conservation planning, data science, and environmental policy.
 
 ::: orange-text
 <a href="https://www.linkedin.com/in/steven-mitchell-94b664208/"> Hire me! </a>

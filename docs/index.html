@@ -67,35 +67,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -118,7 +89,7 @@ window.Quarto = {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Home</span></a>
+<span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./work-samples.html"> 
@@ -129,7 +100,7 @@ window.Quarto = {
 <span class="menu-text">Wildlife Photography</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./steven-mitchell-resume.pdf"> 
+    <a class="nav-link" href="./master-resume.pdf"> 
 <span class="menu-text">Resume</span></a>
   </li>  
 </ul>
@@ -173,26 +144,12 @@ window.Quarto = {
   <div class="about-contents"><main class="content column-page" id="quarto-document-content">
 <section id="welcome-to-my-weird-lil-website" class="level1">
 <h1>Welcome to my weird lil website!</h1>
-<p>If you’re here, I’m hoping it’s because you are considering hiring me. Please have a look at my portfolio of projects, my resume, and some of my wildlife photography. If you have any questions, please reach out!</p>
-</section>
-<section id="professional-interests" class="level1">
-<h1>Professional Interests</h1>
-<p>Conservation Planning <span class="math inline">\(\bullet\)</span> Wildlife Ecology <span class="math inline">\(\bullet\)</span> Climate Adaptation</p>
-</section>
-<section id="skills-competencies" class="level1">
-<h1>Skills &amp; Competencies</h1>
-<p>Project Management <span class="math inline">\(\bullet\)</span> Environmental Planning &amp; Compliance <span class="math inline">\(\bullet\)</span> Wildlife Capture &amp; Handling <span class="math inline">\(\bullet\)</span> Geospatial Analysis &amp; Remote Sensing <span class="math inline">\(\bullet\)</span> Fieldwork Leadership <span class="math inline">\(\bullet\)</span> Data Science <span class="math inline">\(\bullet\)</span> Population Modeling <span class="math inline">\(\bullet\)</span> Stakeholder Engagement <span class="math inline">\(\bullet\)</span> R Programming <span class="math inline">\(\bullet\)</span> Statistical Analysis <span class="math inline">\(\bullet\)</span> Machine Learning</p>
-</section>
-<section id="recent-ongoing-projects" class="level1">
-<h1>Recent &amp; Ongoing Projects</h1>
-<p><a href="https://steven-mitchell.github.io/projects/conservation-practicum-bats-and-wind-energy/"> <strong>Master’s Conservation Planning Practicum:</strong> Minimizing Bat Mortality at New Wind Energy Sites in Washington State </a></p>
-<p><a href="https://bren.ucsb.edu/projects/integrating-climate-adaptation-strategies-local-collaborative-forest-management-northern"> <strong>Master’s Group Project:</strong> Integrating Climate Adaptation Strategies into Local Collaborative Forest Management in Northern Colorado </a></p>
 </section>
 <section id="about-me" class="level1">
 <h1>About Me</h1>
 <p>I spent 8 years working as a wildlife biologist. I worked for the Forest Service’s Pacific Southwest Research Station, Olympic and Mount Rainier National Parks, Turnstone Environmental Consultants, and the National Wildlife Research Center. I worked to monitor carnivore populations in the Sierra Nevadas, consult on ESA section 7 surveys for threatened and endangered species, ensure regulatory compliance (<strong>NEPA</strong>) for transportation projects, mitigate human-wildlife conflict, and research zoonotic diseases.</p>
 <p>Most of my experience has been in some sort of leadership role, whether that was leading field crews, managing projects, or hiring and training junior biologists. I have a strong background in wildlife capture and handling, including chemical immobilization, zoonotic disease research, and physiological studies. I have experience with a variety of species, including bats, birds, ungulates, and mesocarnivores. I’ve also worked a million jobs from brewing craft beer as a certified cicerone to machining fighter jet components to trimming trees as an urban arborist.</p>
-<p>In June 2025, I’m wrapping up my Master’s at UCSB’s <a href="https://bren.ucsb.edu/"> Bren School of Environmental Science &amp; Management </a>. I’ve focused on technical training in geospatial analysis, conservation planning, data science, and environmental policy.</p>
+<p>In June 2025, I wrapped up my Master’s at UCSB’s <a href="https://bren.ucsb.edu/"> Bren School of Environmental Science &amp; Management </a>. I’ve focused on technical training in geospatial analysis, conservation planning, data science, and environmental policy.</p>
 <div class="orange-text">
 <p><a href="https://www.linkedin.com/in/steven-mitchell-94b664208/"> Hire me! </a></p>
 </div>
