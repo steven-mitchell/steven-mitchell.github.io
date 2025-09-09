@@ -1,10 +1,10 @@
 ---
-title: "White-Nose Syndrome and Pesticides"
-subtitle: "Investigating the connection between White-nose syndrome in bats and increases in pesticide use in agriculture."
-description: "Connecting ecosystem services with public health"
+title: "Investigating the connection between White-nose syndrome in bats and increases in pesticide use in agriculture."
+subtitle: "Connecting ecosystem services with public health"
+description: "Geospatial Analysis Demonstration"
 author: 
-  - Madison Calbert
   - Steven Mitchell
+  - Madison Calbert
 date: 03-13-2025
 execute: 
   eval: false
@@ -18,13 +18,11 @@ format:
     embed-resources: true
 editor_options: 
   chunk_output_type: console
-categories: [Wildlife, Geospatial Analysis, R] # self-defined categories
+categories: [Wildlife, GIS, R Programming, Data Science] # self-defined categories
 citation: 
   url: https://steven-mitchell.github.io/work-samples/bats-wns-and-pesticide-use/ 
 image: bat-wns.jpeg
 ---
-
-This project was conducted in collaboration with <a href="https://madicalbert.github.io/"> Madison Calbert </a>.
 
 ![A bat suffering from White-nose syndrome, a disease caused by the fungus *Pseudomycans destructans* (commonly abbreviated as "Pd"). *Photo credit: Google Creative Commons*](bat-wns.jpeg)
 

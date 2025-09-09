@@ -1,7 +1,7 @@
 ---
 title: "Houston Storm Blackouts"
 subtitle: "Identifying the impacts of extreme weather"
-description: "**Skill Demonstration:** Manipulating vector & raster data | Spatial joins across data types | Spatial analysis across data types"
+description: "Geospatial Analysis Demonstration"
 author: "Steven Mitchell"
 date: 11-09-2024
 execute: 
@@ -16,7 +16,7 @@ format:
     embed-resources: true
 editor_options: 
   chunk_output_type: console
-categories: [Geospatial Analysis, R] # self-defined categories
+categories: [GIS, R Programming, Data Science, Climate Adaptation, Environmental Justice] # self-defined categories
 citation: 
   url: https://steven-mitchell.github.io/work-samples/houston-storm-blackouts 
 image: cover-img.jpg

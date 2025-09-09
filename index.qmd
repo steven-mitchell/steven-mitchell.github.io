@@ -21,29 +21,27 @@ about:
       href: mailto:steven_mitchell@bren.ucsb.edu
       target: _blank
 ---
+
 # About Me
 
 I've worked as a wildlife biologist for over six years wrangling mountain goats, following spotted owls to their nests, hazing elk, tracking Pacific fishers, and catching roosts full of bats.
 
-I went to grad school to move from adventurous and fulfilling, yet unstable seasonal work to a more consistent career in conservation planning and environmental management. In June 2025, I wrapped up my Master's at UCSB's <a href="https://bren.ucsb.edu/"> Bren School of Environmental Science & Management </a>. There, I built out my toolkit with training in GIS, data science, environmental law and policy, and conservation planning. For my project, I worked for the Nature Conservancy to develop an online toolkit for climate adaptation in western dry forests.
+I went to grad school to move from adventurous and fulfilling, yet unstable seasonal work to a more consistent career in conservation planning. In June 2025, I wrapped up my Master's at UCSB's <a href="https://bren.ucsb.edu/"> Bren School of Environmental Science & Management </a>. There, I built out my toolkit with training in GIS, data science, environmental law and policy, and conservation planning. For my project, I worked for the Nature Conservancy to develop an online toolkit for climate adaptation in western dry forests.
 
 <a href="https://www.linkedin.com/in/steven-mitchell-94b664208/"> Now that I've graduated, I'm looking for my next opportunity. So, if you are looking at this page, you should hire me! </a>
 
 ::: {layout-ncol="2"}
-
-![Fieldwork at Mt Rainier](images/lake-mystic.jpg)
-
 ![A barred owl (*Strix varia*) that found herself caught in my mist net one morning](images/me-with-stva.jpg)
-
-![My best friend, Piko (*Felis catus*)](images/poke-piko.jpg)
-
-![A little brown bat (*Myotis lucifigus*) captured for white-nose syndrome surveillance](images/me-with-mylu.jpg)
-
-![A rufous hummingbird (*Selasphorus rufus*) caught at a MAPS station at Mt Rainier. Positive species identification by <a href="https://madicalbert.github.io/"> Madison Calbert, Wildlife Biologist </a>](images/hummingbird.jpg)
 
 ![A juvenile mountain goat (*Oreamnos americanus*) that needed help getting from the truck to the veterinary station](images/mtn-goat-baby.jpg)
 
+![A little brown bat (*Myotis lucifigus*) I captured for white-nose syndrome surveillance](images/me-with-mylu.jpg)
+
+![A rufous hummingbird (*Selasphorus rufus*) caught at a MAPS station at Mt Rainier. Positive species identification by <a href="https://madicalbert.github.io/"> Madison Calbert, Wildlife Biologist </a>](images/hummingbird.jpg)
+
 ![Climbing an old-growth bigleaf maple (*Acer macrophyllum*) to collect mycorrhizal samples from its canopy soil](images/climbing-maple.jpg)
 
-![An adult mountain goat (*Oreamnos americanus*) getting a veterinary workup as part of the Olympic Montain Goat Relocation Project](images/mtn-goat-workup.jpg)
+![Restraining an adult mountain goat (*Oreamnos americanus*) getting a veterinary workup as part of the Olympic Montain Goat Relocation Project](images/mtn-goat-workup.jpg)
 :::
+
+![Trekking through the Ethiopian highlands, meeting Gelada monkeys (*Theropithecus gelada*)](images/me-with-gelada.jpg)

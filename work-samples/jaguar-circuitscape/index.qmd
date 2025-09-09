@@ -1,6 +1,6 @@
 ---
 title: "Barriers to Jaguar Habitat Connectivity in Costa Rica Include Natural Forests in Addition to Agriculture"
-description: "**Skill Demonstration:** Circuitscape"
+description: "Circuitscape Demonstration"
 author: 
   - Steven Mitchell
   - Zoe Zhou
@@ -50,6 +50,6 @@ This study used the Linkage Mapper Toolkit in conjunction with Circuitscape to m
 
 Consistent with local ecological knowledge about the species, the model predicts jaguar movements will most frequently occur in the southern areas: the forest-covered corridor between Corcovado and Piedras Blancas supports jaguar travel, while the grassland-dominated corridor to La Amistad does not. Given that agricultural lands, especially grassland pastures, are dominant in the barrier centers, reducing resistance on these lands could significantly enhance connectivity by improving wildlife movement. The coarse resolution resistance layer, which placed barrier centers in water, highlights the limitations of low-resolution data in accurately reflecting real-world connectivity challenges. In contrast, finer resolution layers can identify more precise barriers like roads, while coarser layers tend to focus on broader features such as agricultural lands.
 
-# Reference
+# References
 
 Reference: McRae BH. 2012c. Barrier Mapper Connectivity Analysis Software. The Nature Conservancy, Seattle, WA. Available from https://linkagemapper.org

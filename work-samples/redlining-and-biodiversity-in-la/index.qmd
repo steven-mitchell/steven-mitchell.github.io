@@ -1,7 +1,7 @@
 ---
 title: "Redlining & Biodiversity in L.A."
 subtitle: "Exploring patterns of environmental justice"
-description: "**Skill Demonstration:** Build effective, responsible, accessible and aesthetically-pleasing maps | Manipulate vector and raster data to build multi-layer maps | Spatial analysis between vector and raster datasets"
+description: "Geospatial Analysis Demonstration"
 author: "Steven Mitchell"
 date: 10-19-2024
 execute: 
@@ -16,7 +16,7 @@ format:
     embed-resources: true
 editor_options: 
   chunk_output_type: console
-categories: [Geospatial Analysis, R] # self-defined categories
+categories: [Environmental Justice, GIS, R Programming, Data Science, Wildlife] # self-defined categories
 citation: 
   url: https://steven-mitchell.github.io/work-samples/redlining-and-biodiversity-in-la/ 
 image: holc-scan.jpg
@@ -238,7 +238,7 @@ The data used in this analysis is too large to be hosted on GitHub. Instead, dow
 ## Citations
 
 | Data | Citation | Link |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | EJ Screen | U.S. Environmental Protection Agency (EPA), 2023. EJScreen Technical Documentation. | https://www.epa.gov/ejscreen |
 | Mapping Inequality | Nelson, Robert K., LaDale Winling, et al. "Mapping Inequality: Redlining in New Deal America." Edited by Robert K. Nelson and Edward L. Ayers. American Panorama: An Atlas of United States History, 2023. https://dsl.richmond.edu/panorama/redlining. | https://www.epa.gov/ejscreen |
 | GBIF Bird Observations | GBIF.org (year), GBIF Home Page. Available from: https://www.gbif.org \[13 January 2020\]. | https://www.gbif.org/ |

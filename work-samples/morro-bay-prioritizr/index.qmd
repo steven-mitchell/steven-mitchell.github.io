@@ -1,6 +1,6 @@
 ---
 title: "Optimality Gaps Do Not Significantly Influence Parcel Prioritization"
-description: "**Skill Demonstration:** PrioritizR and Marxan"
+description: "Marxan and prioritzr Demonstration"
 author: 
   - Steven Mitchell
   - Zoe Zhou
@@ -18,7 +18,7 @@ format:
     embed-resources: true
 editor_options: 
   chunk_output_type: console
-categories: [Conservation Planning, GIS, Wildlife] # self-defined categories
+categories: [Conservation Planning, GIS, R Programming, Data Science] # self-defined categories
 citation: 
   url: https://steven-mitchell.github.io/work-samples/morro-bay-prioritizr/ 
 image: morro-bay.jpg
@@ -28,26 +28,22 @@ image: morro-bay.jpg
 
 # Background
 
-Funding and other resources for conservation are limited. Both the benefits and costs of restoration and conservation actions must be weighed to ensure efficiency and pragmatism in addressing environmental issues. In designing reserves and planning restoration, individual land parcels must be assessed and prioritized for such conservation measures. Problem: Here, we use a quantitative prioritization model to identify parcels for conservation in Morro Bay, California under a variety selection criteria. 
+Funding and other resources for conservation are limited. Both the benefits and costs of restoration and conservation actions must be weighed to ensure efficiency and pragmatism in addressing environmental issues. In designing reserves and planning restoration, individual land parcels must be assessed and prioritized for such conservation measures. Problem: Here, we use a quantitative prioritization model to identify parcels for conservation in Morro Bay, California under a variety selection criteria.
 
 # Approach
 
 In this lab, we utilized the `prioritizr` package in R to perform systematic conservation planning, targeting the Morro Bay watershed. Site selection problem is formulated using Marxan to identify the planning units that meet the targets for species representation while minimizing the cost of the planning units used. Boundary Length Modifier (BLM) is set to 0 to remove any penalty towards fragmentation. This allows the algorithm to focus solely on achieving the conservation targets with the least cost. A higher BLM helps in creating more compact and contiguous conservation areas, which is often desirable for ecological coherence but beyond the scope of this study. To solve this problem, we employed the Gurobi solver. The target values for each species were designed to ensure that 30% of the planning units where each species occurs were included in the reserve network. We ran multiple iterations to generate a portfolio of solutions within 15% and 30% of the optimal solution in comparison. The relative gap specifies a threshold worst-case performance for solutions in the portfolio. We expected to see a difference in solutions based on pool_gap specification. The final outputs, including both the summed solution from two portfolio analysis, were exported and visualized in ArcGIS.
 
-# Results 
+# Results
 
-The site selection results are consistent across both optimality gaps (see Figure 1 and Figure 2), indicating that the priority areas identified for conservation remain stable regardless of the gap used in the analysis. 
+The site selection results are consistent across both optimality gaps (see Figure 1 and Figure 2), indicating that the priority areas identified for conservation remain stable regardless of the gap used in the analysis.
 
-![**Figure 1.** Site Selection Maps under Different Optimality Gaps. Spatial distribution of selected conservation areas within the Morro Bay watershed. Certain planning units are consistently selected across multiple solution scenarios, highlighting their importance for achieving conservation targets in the region. The color gradient from green to white indicates the frequency of selection, with red and grey
-areas representing higher frequency and thus higher priority for conservation, while green and yellow areas were selected less often, indicating lower priority.](fig1.png)
+![**Figure 1.** Site Selection Maps under Different Optimality Gaps. Spatial distribution of selected conservation areas within the Morro Bay watershed. Certain planning units are consistently selected across multiple solution scenarios, highlighting their importance for achieving conservation targets in the region. The color gradient from green to white indicates the frequency of selection, with red and grey areas representing higher frequency and thus higher priority for conservation, while green and yellow areas were selected less often, indicating lower priority.](fig1.png)
 
 ![**Figure 2.** Selection Frequency of Planning Units. This vertical bar plot illustrates each of the planning units on the x-axis and the number of solutions that planning unit was used in. No significant differences were found between the two plots.](fig2.png)
 
-![**Figure 3.** Parcel selection frequencies for threatened and endangered species. Parcels in dark green had high selection frequencies when the model was restricted only to threatened and endangered species.
-figure.](fig3.png)
+![**Figure 3.** Parcel selection frequencies for threatened and endangered species. Parcels in dark green had high selection frequencies when the model was restricted only to threatened and endangered species. figure.](fig3.png)
 
 # Conclusions
 
-The typical objective of Marxan problems is to identify the planning units that meet the targets for species representation while minimizing the cost of the planning units used. Other objectives such as maximizing the phylogenetic diversity of the features represented in the solution subject to a budget could be useful in the context of conservation planning in Morro Bay. The majority of the area within the Morro Bay watershed has either a locked-in or lockedout status for conservation planning. Locked-in planning units are automatically included in the conservation solution, resulting in the maximum summed solution value, while locked-out units are excluded from consideration. This status significantly influences the overall conservationplan, as it pre-determines the inclusion or exclusion of large portions of the watershed, thereby
-limiting the flexibility of the site selection process.
-
+The typical objective of Marxan problems is to identify the planning units that meet the targets for species representation while minimizing the cost of the planning units used. Other objectives such as maximizing the phylogenetic diversity of the features represented in the solution subject to a budget could be useful in the context of conservation planning in Morro Bay. The majority of the area within the Morro Bay watershed has either a locked-in or lockedout status for conservation planning. Locked-in planning units are automatically included in the conservation solution, resulting in the maximum summed solution value, while locked-out units are excluded from consideration. This status significantly influences the overall conservation plan, as it pre-determines the inclusion or exclusion of large portions of the watershed, thereby limiting the flexibility of the site selection process.
