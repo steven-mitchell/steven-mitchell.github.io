@@ -16,7 +16,7 @@ website:
         text: Work Samples
       - href: photography.qmd
         text: Wildlife Photography
-      - href: master-resume.pdf
+      - href: extended-resume.pdf
         text: Resume
   page-footer:
     background: light

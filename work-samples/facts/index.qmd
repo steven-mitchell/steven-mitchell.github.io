@@ -1,0 +1,36 @@
+---
+title: "Integrating Climate Adaptation Strategies into Local Collaborative
+Forest Management in Northern Colorado"
+subtitle: "A Case Study with the Upper South Platte Partnership"
+description: "**Master's Group Project**"
+author: 
+  - Steven Mitchell
+  - Izzy Sofio
+  - Maxwell Pepperdine
+  - Olivia Hemond
+  - Nicole Rosen
+date: 04-25-2025
+execute: 
+  eval: false
+  echo: true
+  warning: false
+  message: false
+format:
+  html:
+    code-fold: true
+    embed-resources: true
+editor_options: 
+  chunk_output_type: console
+categories: [Conservation Planning, Environmental Policy, Interdisciplinary Collaboration, Public Speaking] # self-defined categories
+citation: 
+  url: https://steven-mitchell.github.io/work-samples/facts/ 
+image: colorado-dry-forest.jpg
+---
+
+::: orange-text
+<a href="https://steven-mitchell.github.io/work-samples/facts/facts-final-report.pdf"> The full report can be read here</a>
+:::
+
+![](colorado-dry-forest.jpg) 
+
+![](executive-summary-1.png) ![](executive-summary-2.png) {{< video src="https://vimeo.com/1090599811?signup=true" >}}
