@@ -1,0 +1,55 @@
+---
+title: "Barriers to Jaguar Habitat Connectivity in Costa Rica Include Natural Forests in Addition to Agriculture"
+description: "**Skill Demonstration:** Circuitscape"
+author: 
+  - Steven Mitchell
+  - Zoe Zhou
+date: 09-24-2024
+execute: 
+  eval: false
+  echo: true
+  warning: false
+  message: false
+format:
+  html:
+    toc: true
+    number-sections: true
+    code-fold: true
+    embed-resources: true
+editor_options: 
+  chunk_output_type: console
+categories: [Conservation Planning, GIS, Wildlife] # self-defined categories
+citation: 
+  url: https://steven-mitchell.github.io/work-samples/jaguar-connectivity/ 
+image: jaguar.png
+---
+
+![Jaguar (**Panthera onca**). Photo source: Google creative commons](jaguar.jpg)
+
+# Background
+
+Jaguars (**Panthera onca**) are large charismatic cats that require high levels of habitat connectivity to support healthy populations. Land cover can greatly impact connectivity corridors and barriers to movement by jaguars. Problem: To ensure continued habitat connectivity for jaguars, it is important to consider barriers to movement that occur within their least-cost pathways. Barriers to movement that exist within the least-cost path may represent the highest return per unit effort in conservation of jaguars. In Costa Rica, these types of movement barriers span various land use types and mapping these provides important insight into the most effective locations to focus conservation efforts.
+
+# Approach
+
+This study used the Linkage Mapper Toolkit in conjunction with Circuitscape to model and analyze connectivity corridors for jaguars in the Talamanca-Osa region of southern Costa Rica. The Circuitscape model, which conceptualizes landscapes as resistance surfaces where species navigate along paths of least resistance. However, this approach may not capture the complexities of wildlife movement, including influences like social behavior, memory, and individual variation. For the scope of this project, we have not included these additional factors in our analysis. After creating linkages with the Linkage Pathways tool, the Pinchpoint Mapper was employed to identify and map pinch points within the corridors. Barrier Mapper is used to assess "barriers"—areas of the landscape that impede wildlife movement. (McRae 2012) Barriers were mapped with a 1,000-meter detection radius to identify key areas for potential restoration. A comparison analysis using a lower resolution resistance layer (resistance_10x) found the barrier centers in waterbodies, which offers no useful insight for restoration planning.
+
+# Results
+
+-   The top four land covers within the barrier centers are Secondary Forest (36.96%), Primary Forest (26.57%), Grassland Pasture (23.47%), and Palm Plantation (7.19%).
+-   The corridor barrier between Corcovado National Park and Piedras Blancas National Park in the Talamanca-Osa region predominantly consists of primary forest, with palm plantations also contributing to the barrier land cover as shown on the left of Figure 1.
+-   The barrier between La Amistad International Park and Piedras Blancas National Park is primarily characterized by grassland pasture, indicating a different land cover dynamic compared to the western barrier center.
+
+::: {layout-ncol="2"}
+![*Land Cover Type in Barrier Centers for Jaguars in the Talamanca-Osa Region.* Dominant land covers, with Secondary and Primary Forests, Grassland Pasture, and Palm Plantations as key barriers between protected areas in southern Costa Rica.](fig1.png)
+
+![*Land cover types within barrier patches.* Pixels represent land cover types within the habitat connectivity barrier patches between habitat centers.](fig2.png)
+:::
+
+# Conclusions
+
+Consistent with local ecological knowledge about the species, the model predicts jaguar movements will most frequently occur in the southern areas: the forest-covered corridor between Corcovado and Piedras Blancas supports jaguar travel, while the grassland-dominated corridor to La Amistad does not. Given that agricultural lands, especially grassland pastures, are dominant in the barrier centers, reducing resistance on these lands could significantly enhance connectivity by improving wildlife movement. The coarse resolution resistance layer, which placed barrier centers in water, highlights the limitations of low-resolution data in accurately reflecting real-world connectivity challenges. In contrast, finer resolution layers can identify more precise barriers like roads, while coarser layers tend to focus on broader features such as agricultural lands.
+
+# Reference
+
+Reference: McRae BH. 2012c. Barrier Mapper Connectivity Analysis Software. The Nature Conservancy, Seattle, WA. Available from https://linkagemapper.org
