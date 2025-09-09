@@ -41,9 +41,9 @@ This study used the Linkage Mapper Toolkit in conjunction with Circuitscape to m
 -   The barrier between La Amistad International Park and Piedras Blancas National Park is primarily characterized by grassland pasture, indicating a different land cover dynamic compared to the western barrier center.
 
 ::: {layout-ncol="2"}
-![*Land Cover Type in Barrier Centers for Jaguars in the Talamanca-Osa Region.* Dominant land covers, with Secondary and Primary Forests, Grassland Pasture, and Palm Plantations as key barriers between protected areas in southern Costa Rica.](fig1.png)
+![**Figure 1. Land Cover Type in Barrier Centers for Jaguars in the Talamanca-Osa Region.** Dominant land covers, with Secondary and Primary Forests, Grassland Pasture, and Palm Plantations as key barriers between protected areas in southern Costa Rica.](fig1.png)
 
-![*Land cover types within barrier patches.* Pixels represent land cover types within the habitat connectivity barrier patches between habitat centers.](fig2.png)
+![**Figure 2. Land cover types within barrier patches.** Pixels represent land cover types within the habitat connectivity barrier patches between habitat centers.](fig2.png)
 :::
 
 # Conclusions
