@@ -21,7 +21,7 @@ editor_options:
 categories: [Conservation Planning, GIS, Wildlife] # self-defined categories
 citation: 
   url: https://steven-mitchell.github.io/work-samples/jaguar-connectivity/ 
-image: jaguar.png
+image: jaguar.jpg
 ---
 
 ![Jaguar (**Panthera onca**). Photo source: Google creative commons](jaguar.jpg)
