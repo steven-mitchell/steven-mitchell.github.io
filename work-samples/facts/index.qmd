@@ -24,11 +24,12 @@ editor_options:
 categories: [Conservation Planning, Environmental Policy, Interdisciplinary Collaboration, Public Speaking] # self-defined categories
 citation: 
   url: https://steven-mitchell.github.io/work-samples/facts/ 
+resources: facts-final-report.pdf
 image: colorado-dry-forest.jpg
 ---
 
 ::: orange-text
-<a href="https://steven-mitchell.github.io/work-samples/facts/facts-final-report.pdf"> The full report can be read here</a>
+[The full report can be read here](./facts-final-report.pdf)
 :::
 
 ![](colorado-dry-forest.jpg) 
