@@ -16,7 +16,7 @@ website:
         text: Projects
       - href: photography.qmd
         text: Wildlife Photography
-      - href: extended-resume.pdf
+      - href: website-resume.pdf
         text: Resume
   page-footer:
     background: light
