@@ -24,11 +24,11 @@ about:
 
 # About Me
 
-I've worked as a wildlife biologist for over six years wrangling mountain goats, following spotted owls to their nests, hazing elk, tracking Pacific fishers, and catching roosts full of bats.
+I'm a wildlife biologist, snowboarder, and data nerd. For over ten years, I've tracked carnivores through the mountains, wrangled mountain goats, ran spotted owl monitoring projects, hazed elk, and caught roosts full of bats for disease research.
 
-I went to grad school to move from adventurous and fulfilling, yet unstable seasonal work to a more consistent career in conservation planning. In June 2025, I wrapped up my Master's at UCSB's <a href="https://bren.ucsb.edu/"> Bren School of Environmental Science & Management </a>. There, I built out my toolkit with training in GIS, data science, environmental law and policy, and conservation planning. For my project, I worked for the Nature Conservancy to develop an online toolkit for climate adaptation in western dry forests.
+In June 2025, I wrapped up my Master's at UCSB's <a href="https://bren.ucsb.edu/"> Bren School of Environmental Science & Management </a>, which helped me land my dream job with NPS. Unfortunately, I immediately got DOGE'd, and now I'm looking to start my next chapter in the Seattle area.
 
-<a href="https://www.linkedin.com/in/steven-mitchell-94b664208/"> Now that I've graduated, I'm looking for my next opportunity. So, if you are looking at this page, you should hire me! </a>
+<a href="https://www.linkedin.com/in/steven-mitchell-94b664208/"> So, if you are looking at this page, you should hire me! </a>
 
 ::: {layout-ncol="2"}
 ![A barred owl (*Strix varia*) that found herself caught in my mist net one morning](images/me-with-stva.jpg)
