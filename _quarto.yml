@@ -13,7 +13,7 @@ website:
       - href: index.qmd
         text: About Me
       - href: work-samples.qmd
-        text: Projects
+        text: Work Samples
       - href: photography.qmd
         text: Wildlife Photography
       - href: website-resume.pdf
