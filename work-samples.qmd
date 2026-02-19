@@ -9,7 +9,7 @@ listing:
   categories: true # allows you to sort posts by assigned categories 
 ---
 
-# Projects
+# Work Samples
 
 ::: orange-text
 <a href="https://www.linkedin.com/in/steven-mitchell-94b664208/"> Hire me! </a>
